@@ -1,0 +1,5 @@
+<h1>Admin::Cards#index</h1>
+<% @cards.each do |card| %>
+  <%= link_to image_tag(card.image.mini.url), "/admin/cards/edit/#{card.id}" if card.image %>
+  <%= link_to "[ #{card.name} ]", "/admin/cards/edit/#{card.id}" unless card.image %>
+<% end %>

@@ -1,0 +1,17 @@
+game_1_waiting_ranking_no_password:
+  user: quentin
+  status: "<%= Game::Status::WAITING_FOR_PLAYERS %>"
+  max_players: 2
+  type: Game::Civilization::Advanced
+
+game_2_waiting_ranking_password:
+  user: quentin
+  status: "<%= Game::Status::WAITING_FOR_PLAYERS %>"
+  max_players: 2
+  password: test
+
+game_3_in_progress_not_ranked_no_password:
+  user: quentin
+  status: "<%= Game::Status::IN_PROGRESS %>"
+  max_players: 2
+  ranking: 1

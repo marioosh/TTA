@@ -1,0 +1,24 @@
+<%= show_card(game_card) %>
+
+<% if game_card.is_a?(GameCard::PlayerCard) || game_card.is_a?(GameCard::PlayerWonder) %>
+
+  <% (1..game_card.yellow_tokens).each do |i| %>
+      <%= image_tag 'game/icon_yellow.png', :style => "position: absolute; left: #{i*10}px; top: 40px; width: 30px;" %>
+  <% end unless game_card.yellow_tokens.nil? %>
+
+  <% (1..game_card.blue_tokens).each do |i| %>
+      <%= image_tag 'game/icon_blue.png', :style => "position: absolute; left: #{i*10}px; top: 60px; width: 30px;" %>
+  <% end unless game_card.blue_tokens.nil? %>
+
+  <% if game_card.card.is_a?(Card::Civil::Technology::Government) %>
+
+    <% (1..game_card.player.civil_actions_left).each do |i| %>
+        <%= image_tag 'game/icon_white.png', :style => "position: absolute; left: #{i*10}px; top: 40px; width: 30px;" %>
+    <% end %>
+    <% (1..game_card.player.military_actions_left).each do |i| %>
+        <%= image_tag 'game/icon_red.png', :style => "position: absolute; left: #{i*10}px; top: 60px; width: 30px;" %>
+    <% end %>
+
+  <% end %>
+
+<% end %>

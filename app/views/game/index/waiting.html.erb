@@ -1,0 +1,4 @@
+<h3>Oczekiwanie na gracza <span><%= @game.player.user.profile.name %></span>...</h3>
+<div style="text-align: right;">
+  <%= button_to 'Odśwież', "/game/index/index/#{@game.id}", :method => :get %>
+</div>

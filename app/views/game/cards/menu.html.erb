@@ -1,0 +1,6 @@
+<% add_game_breadcrumb @game %>
+<% set_title card_title(@gc.card) %>
+
+<div id="current-card">
+  <%= render('menu', :gc => @gc) %>
+</div>

@@ -1,0 +1,17 @@
+PolishVocative
+==============
+
+Extends String class to provide vocative form of a name.
+String#vocative translates only the first word of whole string
+(usually a first name).
+
+
+Example
+=======
+
+'KASIA KOWALSKA'.vocative # => Kasiu KOWALSKA
+'Test'.vocative # => Teście
+'Krzyś'.vocative # => Krzysiu
+
+
+Copyright (c) 2008 Artur Jedlinski, released under the MIT license

@@ -1,0 +1,28 @@
+<h3><%= t("game.phase.civilization.#{@game.phase}") %></h3>
+
+<ul style="font-size: 10px;">
+  <% if @game.player.civil_actions_left > 0 %>
+    <li>Wzięcie karty (za 1, 2 lub 3 akcje cywilne) - zapłać 1 akcję więcej za każdy zbudowany cud, jeżeli bierzesz z toru kolejny cud.</li>
+    <% if @game.round > 0 %>
+    <li>Zwiększenie populacji.</li>
+    <li>Budowa kopalni, farmy lub budynku.</li>
+    <li>Ulepszenie kopalni, farmy lub budynku.</li>
+    <li>Zniszczenie kopalni, farmy lub budynku.</li>
+    <li>Budowa etapu cudu świata.</li>
+    <li>Wprowadzenie lidera do gry.</li>
+    <li>Zagranie karty technologii.</li>
+    <li>Rozpoczęcie rewolucji.</li>
+    <li>Zagranie karty akcji (nie wolno zagrać karty wziętej z toru w tej rundzie).</li>
+    <% end %>
+  <% end %>
+  <% if @game.player.military_actions_left > 0 %>
+    <li>Rekrutacja jednostki wojskowej.</li>
+    <li>Ulepszenie jednostki.</li>
+    <li>Rozwiązanie jednostki.</li>
+    <li>Zagranie karty taktyki.</li>
+  <% end %>
+</ul>
+
+<div style="text-align: right;">
+  <%= button_to 'Zakończ turę', "/game/index/index/#{@game.id}?phase=finish", :confirm => 'Na pewno zakończyć turę?' %>
+</div>

@@ -1,0 +1,22 @@
+<fieldset>
+  <legend>Konfiguracja</legend>
+
+  <table id="config">
+    <tr>
+      <th>ID:</th>
+      <td><%= game_title(@game) %></td>
+    </tr>
+    <tr>
+      <th>Runda:</th>
+      <td><%= game_round(@game) %></td>
+    </tr>
+    <tr>
+      <th>Epoka:</th>
+      <td><%= game_age(@game) %></td>
+    </tr>
+    <tr>
+      <th>Tura gracza:</th>
+      <th style="background-color: <%= show_color(@game.current_player) %>"><%= @game.current_player.user.profile.name if @game.current_player %></th>
+    </tr>
+  </table>
+</fieldset>

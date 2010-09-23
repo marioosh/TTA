@@ -1,0 +1,6 @@
+<h1>Admin::Cards#upload</h1>
+<h2>Aby zdefiniować nowe karty, załaduj je do katalogu public/files/source</h2>
+
+<% @images.each do |file| %>
+<%= link_to image_tag(file, :width => 88), "/admin/cards/define/#{File.basename(file).sub('.png', '')}" %>
+<% end %>

@@ -1,0 +1,5 @@
+body { background: #fff }
+.container { margin: 0; padding: 10px; }
+
+/* CARD ROW */
+table td, table th { padding: 5px; }

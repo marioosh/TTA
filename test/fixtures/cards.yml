@@ -1,0 +1,3024 @@
+dzielo_sztuki_59:
+  name: "Dzieło sztuki"
+  type: "Card::Civil::Action::DzieloSztuki"
+  min_players: "0"
+  description: "Dodaj sobie 6 [culture]."
+  age: "0"
+  variant_id: "2"
+
+geniusz_konstruktorski_57:
+  name: "Geniusz konstruktorski"
+  type: "Card::Civil::Action::GeniuszKonstruktorski"
+  min_players: "0"
+  description: "Zbuduj jeden etap cudu; zapłać o 2 surowce mniej."
+  age: "0"
+  variant_id: "2"
+
+idealne_miejsce_na_budowe_55:
+  name: "Idealne miejsce na budowę"
+  type: "Card::Civil::Action::IdealneMiejsceNaBudowe"
+  min_players: "0"
+  description: "Zbuduj nowy budynek publiczny; zapłać o 1 surowiec mniej."
+  age: "0"
+  variant_id: "2"
+
+idealne_miejsce_na_budowe_56:
+  name: "Idealne miejsce na budowę"
+  type: "Card::Civil::Action::IdealneMiejsceNaBudowe"
+  min_players: "0"
+  description: "Zbuduj nowy budynek publiczny; zapłać o 1 surowiec mniej."
+  age: "0"
+  variant_id: "2"
+
+patriotyzm_58:
+  name: "Patriotyzm"
+  type: "Card::Civil::Action::Patriotyzm"
+  min_players: "0"
+  description: "W tej rundzie masz 1 dodatkową akcję militarną i dodatkowy 1 surowiec na budowanie jednostek militarnych,"
+  age: "0"
+  variant_id: "2"
+
+rewolucyjny_pomysl_60:
+  name: "Rewolucyjny pomysł"
+  type: "Card::Civil::Action::RewolucyjnyPomysl"
+  min_players: "0"
+  description: "Dodaj sobie 1 [science]."
+  age: "0"
+  variant_id: "2"
+
+urodzajne_ziemie_53:
+  name: "Urodzajne ziemie"
+  type: "Card::Civil::Action::UrodzajneZiemie"
+  min_players: "0"
+  description: "Zbuduj nową kopalnię lub farmę; zapłać o 1 surowiec mniej."
+  age: "0"
+  variant_id: "2"
+
+urodzajne_ziemie_54:
+  name: "Urodzajne ziemie"
+  type: "Card::Civil::Action::UrodzajneZiemie"
+  min_players: "0"
+  description: "Zbuduj nową kopalnię lub farmę; zapłać o 1 surowiec mniej."
+  age: "0"
+  variant_id: "2"
+
+zapasy_zywnosci_61:
+  name: "Zapasy żywności"
+  type: "Card::Civil::Action::ZapasyZywnosci"
+  min_players: "0"
+  description: "Zwiększ swoją populację za pełną cenę; następnie wyprodukuj 1 żywności."
+  age: "0"
+  variant_id: "2"
+
+zapasy_zywnosci_62:
+  name: "Zapasy żywności"
+  type: "Card::Civil::Action::ZapasyZywnosci"
+  min_players: "0"
+  description: "Zwiększ swoją populację za pełną cenę; następnie wyprodukuj 1 żywności."
+  age: "0"
+  variant_id: "2"
+
+aleksander_macedonski_3:
+  name: "Aleksander Macedoński"
+  type: "Card::Civil::Leader::AleksanderMacedonski"
+  min_players: "0"
+  description: "Każda z Twoich jednostek militarnych daje Ci +1 siły."
+  age: "0"
+  variant_id: "2"
+
+arystoteles_4:
+  name: "Arystoteles"
+  type: "Card::Civil::Leader::Arystoteles"
+  min_players: "0"
+  description: "Za każdym razem gdy bierzesz kartę technologii z toru kart, dodajesz sobie 1 [science]."
+  age: "0"
+  variant_id: "2"
+
+hammurabi_1:
+  name: "Hammurabi"
+  type: "Card::Civil::Leader::Hammurabi"
+  min_players: "0"
+  description: "Zyskujesz 1 akcję cywilną i tracisz 1 akcję militarną."
+  age: "0"
+  variant_id: "2"
+
+homer_6:
+  name: "Homer"
+  type: "Card::Civil::Leader::Homer"
+  min_players: "0"
+  description: "W każdej rundzie masz dodatkowy 1 surowiec na budowę jednostek militarnych. Do dwóch z Twoich Wojowników produkuje po 1 [culture] każdy."
+  age: "0"
+  variant_id: "2"
+
+juliusz_cezar_2:
+  name: "Juliusz Cezar"
+  type: "Card::Civil::Leader::JuliuszCezar"
+  min_players: "0"
+  description: "Dodaj +1 do swojej siły. Zyskujesz 1 akcję militarną."
+  age: "0"
+  variant_id: "2"
+
+mojzesz_5:
+  name: "Mojżesz"
+  type: "Card::Civil::Leader::Mojzesz"
+  min_players: "0"
+  description: "Zwiększanie populacji kosztuje Cię 1 żywności mniej."
+  age: "0"
+  variant_id: "2"
+
+praojciec_czech_(cz)_43:
+  name: "Praojciec Czech (CZ)"
+  type: "Card::Civil::Leader::PraojciecCzech"
+  min_players: "0"
+  description: "W każdej rundzie masz 1 surowiec zniżki na budowanie cudu, kopalni lub farmy. Odzyskujesz akcję cywilną wykorzystaną na zagranie Praojca Czech."
+  age: "0"
+  variant_id: "4"
+
+rolnictwo_22:
+  name: "Rolnictwo"
+  type: "Card::Civil::Technology::Farm"
+  min_players: "1"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+rolnictwo_377:
+  name: "Rolnictwo"
+  type: "Card::Civil::Technology::Farm"
+  min_players: "2"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+rolnictwo_383:
+  name: "Rolnictwo"
+  type: "Card::Civil::Technology::Farm"
+  min_players: "3"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+rolnictwo_389:
+  name: "Rolnictwo"
+  type: "Card::Civil::Technology::Farm"
+  min_players: "4"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+tyrania_23:
+  name: "Tyrania"
+  type: "Card::Civil::Technology::Government::Tyrania"
+  min_players: "1"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+tyrania_378:
+  name: "Tyrania"
+  type: "Card::Civil::Technology::Government::Tyrania"
+  min_players: "2"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+tyrania_384:
+  name: "Tyrania"
+  type: "Card::Civil::Technology::Government::Tyrania"
+  min_players: "3"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+tyrania_390:
+  name: "Tyrania"
+  type: "Card::Civil::Technology::Government::Tyrania"
+  min_players: "4"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+braz_21:
+  name: "Brąz"
+  type: "Card::Civil::Technology::Mine"
+  min_players: "1"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+braz_376:
+  name: "Brąz"
+  type: "Card::Civil::Technology::Mine"
+  min_players: "2"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+braz_382:
+  name: "Brąz"
+  type: "Card::Civil::Technology::Mine"
+  min_players: "3"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+braz_388:
+  name: "Brąz"
+  type: "Card::Civil::Technology::Mine"
+  min_players: "4"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+wojownicy_18:
+  name: "Wojownicy"
+  type: "Card::Civil::Technology::Unit::Infrantry"
+  min_players: "1"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+wojownicy_373:
+  name: "Wojownicy"
+  type: "Card::Civil::Technology::Unit::Infrantry"
+  min_players: "2"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+wojownicy_379:
+  name: "Wojownicy"
+  type: "Card::Civil::Technology::Unit::Infrantry"
+  min_players: "3"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+wojownicy_385:
+  name: "Wojownicy"
+  type: "Card::Civil::Technology::Unit::Infrantry"
+  min_players: "4"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+filozofia_20:
+  name: "Filozofia"
+  type: "Card::Civil::Technology::Urban::Laboratory"
+  min_players: "1"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+filozofia_375:
+  name: "Filozofia"
+  type: "Card::Civil::Technology::Urban::Laboratory"
+  min_players: "2"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+filozofia_381:
+  name: "Filozofia"
+  type: "Card::Civil::Technology::Urban::Laboratory"
+  min_players: "3"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+filozofia_387:
+  name: "Filozofia"
+  type: "Card::Civil::Technology::Urban::Laboratory"
+  min_players: "4"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+religia_19:
+  name: "Religia"
+  type: "Card::Civil::Technology::Urban::Temple"
+  min_players: "1"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+religia_374:
+  name: "Religia"
+  type: "Card::Civil::Technology::Urban::Temple"
+  min_players: "2"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+religia_380:
+  name: "Religia"
+  type: "Card::Civil::Technology::Urban::Temple"
+  min_players: "3"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+religia_386:
+  name: "Religia"
+  type: "Card::Civil::Technology::Urban::Temple"
+  min_players: "4"
+  description: ""
+  age: "0"
+  variant_id: "1"
+
+biblioteka_aleksandryjska_16:
+  name: "Biblioteka Aleksandryjska"
+  type: "Card::Civil::Wonder::BibliotekaAleksandryjska"
+  min_players: "0"
+  description: "Możesz mieć 1 dodatkową [CivilCard kartę cywilną] i 1 dodatkową kartę militarną w ręku."
+  age: "0"
+  variant_id: "2"
+
+kolos_rodyjski_17:
+  name: "Kolos Rodyjski"
+  type: "Card::Civil::Wonder::KolosRodyjski"
+  min_players: "0"
+  description: "W czasie kolonizacji nowego terytorium masz bonus +1."
+  age: "0"
+  variant_id: "2"
+
+piramidy_14:
+  name: "Piramidy"
+  type: "Card::Civil::Wonder::Piramidy"
+  min_players: "0"
+  description: "Zyskujesz 1 akcję cywilną."
+  age: "0"
+  variant_id: "2"
+
+siec_szlakow_handlowych_(cz)_48:
+  name: "Sieć szlaków handlowych (CZ)"
+  type: "Card::Civil::Wonder::SiecSzlakowHandlowych"
+  min_players: "0"
+  description: "W epoce I produkuje 1 surowiec. W epoce II produkuje 1 nauki. W epoce III i IV produkuje 1 kultury."
+  age: "0"
+  variant_id: "4"
+
+wiszace_ogrody_15:
+  name: "Wiszące ogrody"
+  type: "Card::Civil::Wonder::WiszaceOgrody"
+  min_players: "0"
+  description: ""
+  age: "0"
+  variant_id: "2"
+
+nic_sie_nie_dzieje_269:
+  name: "Nic się nie dzieje"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "0"
+  variant_id: "2"
+
+rozwoj_nauki_215:
+  name: "Rozwój nauki"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "0"
+  variant_id: "2"
+
+rozwoj_osadnictwa_214:
+  name: "Rozwój osadnictwa"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "0"
+  variant_id: "2"
+
+rozwoj_polityki_266:
+  name: "Rozwój polityki"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "0"
+  variant_id: "2"
+
+rozwoj_religii_265:
+  name: "Rozwój religii"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "0"
+  variant_id: "2"
+
+rozwoj_rolnictwa_217:
+  name: "Rozwój rolnictwa"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "0"
+  variant_id: "2"
+
+rozwoj_rynkow_267:
+  name: "Rozwój rynków"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "0"
+  variant_id: "2"
+
+rozwoj_rzemiosla_216:
+  name: "Rozwój rzemiosła"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "0"
+  variant_id: "2"
+
+rozwoj_szlakow_handlowych_268:
+  name: "Rozwój szlaków handlowych"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "0"
+  variant_id: "2"
+
+rozwoj_sztuki_wojennej_264:
+  name: "Rozwój sztuki wojennej"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "0"
+  variant_id: "2"
+
+dzielo_sztuki_218:
+  name: "Dzieło sztuki"
+  type: "Card::Civil::Action::DzieloSztuki"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+geniusz_konstruktorski_141:
+  name: "Geniusz konstruktorski"
+  type: "Card::Civil::Action::GeniuszKonstruktorski"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+idealne_miejsce_na_budowe_137:
+  name: "Idealne miejsce na budowę"
+  type: "Card::Civil::Action::IdealneMiejsceNaBudowe"
+  min_players: "0"
+  description: "Zbuduj nowy budynek publiczny; zapłać o 2 surowce mniej."
+  age: "1"
+  variant_id: "2"
+
+patriotyzm_144:
+  name: "Patriotyzm"
+  type: "Card::Civil::Action::Patriotyzm"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+przelom_technologiczny_222:
+  name: "Przełom technologiczny"
+  type: "Card::Civil::Action::PrzelomTechnologiczny"
+  min_players: "0"
+  description: "Zagraj kartę technologii za pełną cenę; następnie dodaj sobie 2 nauki."
+  age: "1"
+  variant_id: "2"
+
+rewolucyjny_pomysl_219:
+  name: "Rewolucyjny pomysł"
+  type: "Card::Civil::Action::RewolucyjnyPomysl"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+szybka_modernizacja_145:
+  name: "Szybka modernizacja"
+  type: "Card::Civil::Action::SzybkaModernizacja"
+  min_players: "0"
+  description: "Ulepsz farmę, kopalnię lub budynek publiczny; zapłać o 2 surowce mniej."
+  age: "1"
+  variant_id: "2"
+
+szybka_modernizacja_146:
+  name: "Szybka modernizacja"
+  type: "Card::Civil::Action::SzybkaModernizacja"
+  min_players: "0"
+  description: "Ulepsz farmę, kopalnię lub budynek publiczny; zapłać o 2 surowce mniej."
+  age: "1"
+  variant_id: "2"
+
+udane_zbiory_220:
+  name: "Udane zbiory"
+  type: "Card::Civil::Action::UdaneZbiory"
+  min_players: "0"
+  description: "Twoja cywilizacja produkuje 2 żywności."
+  age: "1"
+  variant_id: "2"
+
+urodzajne_ziemie_132:
+  name: "Urodzajne ziemie"
+  type: "Card::Civil::Action::UrodzajneZiemie"
+  min_players: "0"
+  description: "Zbuduj nową kopalnię lub farmę; zapłać o 2 surowce mniej."
+  age: "1"
+  variant_id: "2"
+
+zapasy_zywnosci_221:
+  name: "Zapasy żywności"
+  type: "Card::Civil::Action::ZapasyZywnosci"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+zloza_mineralow_142:
+  name: "Złoża minerałów"
+  type: "Card::Civil::Action::ZlozaMineralow"
+  min_players: "0"
+  description: "Twoja cywilizacja produkuje 2 surowce."
+  age: "1"
+  variant_id: "2"
+
+zloza_mineralow_143:
+  name: "Złoża minerałów"
+  type: "Card::Civil::Action::ZlozaMineralow"
+  min_players: "0"
+  description: "Twoja cywilizacja produkuje 2 surowce."
+  age: "1"
+  variant_id: "2"
+
+czyngis_chan_34:
+  name: "Czyngis-chan"
+  type: "Card::Civil::Leader::CzyngisChan"
+  min_players: "0"
+  description: "Zignoruj efekty swojej karty taktyki. Każda z Twoich jednostek kawalerii [cavalry] ma dodatkowe +1 siły i produkuje 1 [culture]."
+  age: "1"
+  variant_id: "2"
+
+fryderyk_i_barbarossa_35:
+  name: "Fryderyk I Barbarossa"
+  type: "Card::Civil::Leader::FryderykIBarbarossa"
+  min_players: "0"
+  description: "Za 1 akcję cywilną możesz zwiększyć swoją populację o 1 robotnika i stworzyć z niego jednostkę militarną. Kosztuje Cię to 1 żywności taniej i 1 surowiec taniej niż normalnie."
+  age: "1"
+  variant_id: "2"
+
+jan_Žižka_(cz)_44:
+  name: "Jan Žižka (CZ)"
+  type: "Card::Civil::Leader::JanZizka"
+  min_players: "0"
+  description: "Każda farma dodaje Ci +1 do siły. Za zagranie karty wydarzeń w fazie politycznej dostajesz podwójną ilość [culture]. Agresje i Wojny kosztują Cię jedną militarną akcję więcej."
+  age: "1"
+  variant_id: "4"
+
+joanna_d'arc_39:
+  name: "Joanna d'Arc"
+  type: "Card::Civil::Leader::JoannaDArc"
+  min_players: "0"
+  description: "Twoje świątynie [temple] dają Ci +1 siły za każdą ich zadowoloną buźkę. Za każdym razem gdy ktoś wypowiada Ci agresję lub wojnę, otrzymujesz 5 [culture]."
+  age: "1"
+  variant_id: "2"
+
+krzysztof_kolumb_36:
+  name: "Krzysztof Kolumb"
+  type: "Card::Civil::Leader::KrzysztofKolumn"
+  min_players: "0"
+  description: "Raz w czasie gry możesz użyć swojej akcji politycznej, aby natychmiast skolonizować terytorium ze swojej ręki, bez poświęcania żadnych jednostek."
+  age: "1"
+  variant_id: "2"
+
+leonardo_da_vinci_37:
+  name: "Leonardo da Vinci"
+  type: "Card::Civil::Leader::LeonardoDaVinci"
+  min_players: "0"
+  description: "Twoje najlepsze laboratorium [lab] lub biblioteka [library] produkuje dodatkowo tyle [science] ile wynosi poziom tego budynku. Za każdym razem gdy zagrasz kartę technologii, Twoja cywilizacja produkuje 1 surowiec."
+  age: "1"
+  variant_id: "2"
+
+michal_aniol_38:
+  name: "Michał Anioł"
+  type: "Card::Civil::Leader::MichalAniol"
+  min_players: "0"
+  description: "Twoje świątynie [temple], teatry [theatre] i cuda produkują dodatkowo 1 [culture] za każdą zadowoloną buźkę. Wzięcie karty cudu z toru kart kosztuje Cię o 1 akcję cywilną mniej."
+  age: "1"
+  variant_id: "2"
+
+mikolaj_kopernik_(pl)_24:
+  name: "Mikołaj Kopernik (PL)"
+  type: "Card::Civil::Leader::MikolajKopernik"
+  min_players: "0"
+  description: "Twoja najlepsza świątynia [temple] lub biblioteka [library] produkuje dodatkowo tyle nauki ile wynosi poziom tego budynku. Za każdym razem gdy zagrywasz kartę specjalnej (niebieskiej) technologii otrzymujesz 1 [science] i 1 surowiec."
+  age: "1"
+  variant_id: "3"
+
+irygacja_108:
+  name: "Irygacja"
+  type: "Card::Civil::Technology::Farm"
+  min_players: "4"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+irygacja_109:
+  name: "Irygacja"
+  type: "Card::Civil::Technology::Farm"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+irygacja_110:
+  name: "Irygacja"
+  type: "Card::Civil::Technology::Farm"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+monarchia_161:
+  name: "Monarchia"
+  type: "Card::Civil::Technology::Government::Monarchia"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+monarchia_162:
+  name: "Monarchia"
+  type: "Card::Civil::Technology::Government::Monarchia"
+  min_players: "3"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+teokracja_160:
+  name: "Teokracja"
+  type: "Card::Civil::Technology::Government::Teokracja"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+zelazo_105:
+  name: "Żelazo"
+  type: "Card::Civil::Technology::Mine"
+  min_players: "4"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+zelazo_106:
+  name: "Żelazo"
+  type: "Card::Civil::Technology::Mine"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+zelazo_107:
+  name: "Żelazo"
+  type: "Card::Civil::Technology::Mine"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+kartografia_119:
+  name: "Kartografia"
+  type: "Card::Civil::Technology::Special::Kartografia"
+  min_players: "0"
+  description: "Dodaj +1 do swojej siły. W czasie kolonizacji nowego terytorium masz bonus +2."
+  age: "1"
+  variant_id: "2"
+
+murarstwo_175:
+  name: "Murarstwo"
+  type: "Card::Civil::Technology::Special::Murarstwo"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+spis_praw_173:
+  name: "Spis praw"
+  type: "Card::Civil::Technology::Special::SpisPraw"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+spis_praw_174:
+  name: "Spis praw"
+  type: "Card::Civil::Technology::Special::SpisPraw"
+  min_players: "3"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+sztuka_wojenna_171:
+  name: "Sztuka wojenna"
+  type: "Card::Civil::Technology::Special::SztukaWojenna"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+sztuka_wojenna_172:
+  name: "Sztuka wojenna"
+  type: "Card::Civil::Technology::Special::SztukaWojenna"
+  min_players: "3"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+rycerze_84:
+  name: "Rycerze"
+  type: "Card::Civil::Technology::Unit::Cavalry"
+  min_players: "4"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+rycerze_85:
+  name: "Rycerze"
+  type: "Card::Civil::Technology::Unit::Cavalry"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+rycerze_86:
+  name: "Rycerze"
+  type: "Card::Civil::Technology::Unit::Cavalry"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+ciezka_piechota_81:
+  name: "Ciężka piechota"
+  type: "Card::Civil::Technology::Unit::Infrantry"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+ciezka_piechota_82:
+  name: "Ciężka piechota"
+  type: "Card::Civil::Technology::Unit::Infrantry"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+ciezka_piechota_83:
+  name: "Ciężka piechota"
+  type: "Card::Civil::Technology::Unit::Infrantry"
+  min_players: "4"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+chleb_i_igrzyska_193:
+  name: "Chleb i igrzyska"
+  type: "Card::Civil::Technology::Urban::Arena"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+chleb_i_igrzyska_194:
+  name: "Chleb i igrzyska"
+  type: "Card::Civil::Technology::Urban::Arena"
+  min_players: "3"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+alchemia_188:
+  name: "Alchemia"
+  type: "Card::Civil::Technology::Urban::Laboratory"
+  min_players: "4"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+alchemia_189:
+  name: "Alchemia"
+  type: "Card::Civil::Technology::Urban::Laboratory"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+alchemia_190:
+  name: "Alchemia"
+  type: "Card::Civil::Technology::Urban::Laboratory"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+prasa_drukarska_191:
+  name: "Prasa drukarska"
+  type: "Card::Civil::Technology::Urban::Library"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+prasa_drukarska_192:
+  name: "Prasa drukarska"
+  type: "Card::Civil::Technology::Urban::Library"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+teologia_186:
+  name: "Teologia"
+  type: "Card::Civil::Technology::Urban::Temple"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+teologia_187:
+  name: "Teologia"
+  type: "Card::Civil::Technology::Urban::Temple"
+  min_players: "3"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+aktorstwo_195:
+  name: "Aktorstwo"
+  type: "Card::Civil::Technology::Urban::Theatre"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+aktorstwo_196:
+  name: "Aktorstwo"
+  type: "Card::Civil::Technology::Urban::Theatre"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+bazylika_sw._piotra_125:
+  name: "Bazylika Św. Piotra"
+  type: "Card::Civil::Wonder::BazylikaSwPiotra"
+  min_players: "0"
+  description: "Każda z Twoich zadowolonych buziek liczy się podwójnie."
+  age: "1"
+  variant_id: "2"
+
+kopalnia_soli_w_wieliczce_(pl)_25:
+  name: "Kopalnia Soli w Wieliczce (PL)"
+  type: "Card::Civil::Wonder::KopalniaSoliWWieliczce"
+  min_players: "0"
+  description: "Jedna z Twoich kopalń poziomu A lub I produkuje dwa razy tyle [resource]. Jedna z Twoich farm poziomu A lub I produkuje dwa razy tyle żywności. "
+  age: "1"
+  variant_id: "3"
+
+kutnohorskie_kopalnie_srebra_(cz)_47:
+  name: "Kutnohorskie kopalnie srebra (CZ)"
+  type: "Card::Civil::Wonder::KutnohorskieKopalnieSrebra"
+  min_players: "0"
+  description: "Przy zagrywaniu żółtych kart masz +1 do ich efektu (więcej surowców, żywności, punktów nauki, kultury, większe zniżki, ale nie więcej akcji militarnych)."
+  age: "1"
+  variant_id: "4"
+
+tadz_mahal_124:
+  name: "Tadź Mahal"
+  type: "Card::Civil::Wonder::TadzMahal"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+uniwersytet_karolinski_123:
+  name: "Uniwersytet Karoliński"
+  type: "Card::Civil::Wonder::UniwersytetKarolinski"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+wielki_mur_122:
+  name: "Wielki Mur"
+  type: "Card::Civil::Wonder::WielkiMur"
+  min_players: "0"
+  description: "Dodaj +1 do swojej siły za każdą jednostkę piechoty [infrantry] i artylerii [artillery]."
+  age: "1"
+  variant_id: "2"
+
+grabiez_243:
+  name: "Grabież"
+  type: "Military::Aggression::Grabiez"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+grabiez_244:
+  name: "Grabież"
+  type: "Military::Aggression::Grabiez"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+najazd_241:
+  name: "Najazd"
+  type: "Military::Aggression::Najazd"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+najazd_242:
+  name: "Najazd"
+  type: "Military::Aggression::Najazd"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+zniewolenie_245:
+  name: "Zniewolenie"
+  type: "Military::Aggression::Zniewolenie"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+zniewolenie_246:
+  name: "Zniewolenie"
+  type: "Military::Aggression::Zniewolenie"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+_kolonizacja_69:
+  name: "Obrona / Kolonizacja"
+  type: "Military::Bonus"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+_kolonizacja_70:
+  name: "Obrona / Kolonizacja"
+  type: "Military::Bonus"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+_kolonizacja_71:
+  name: "Obrona / Kolonizacja"
+  type: "Military::Bonus"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+_kolonizacja_72:
+  name: "Obrona / Kolonizacja"
+  type: "Military::Bonus"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+_kolonizacja_73:
+  name: "Obrona / Kolonizacja"
+  type: "Military::Bonus"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+_kolonizacja_74:
+  name: "Obrona / Kolonizacja"
+  type: "Military::Bonus"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+barbarzyncy_273:
+  name: "Barbarzyńcy"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+dobre_zbiory_292:
+  name: "Dobre zbiory"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+imigracja_286:
+  name: "Imigracja"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+konflikt_graniczny_288:
+  name: "Konflikt graniczny"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+krucjaty_289:
+  name: "Krucjaty"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+najezdzcy_272:
+  name: "Najeźdźcy"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+niepewne_granice_287:
+  name: "Niepewne granice"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+nowe_zloza_293:
+  name: "Nowe złoża"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+podjazd_284:
+  name: "Podjazd"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+przelom_naukowy_291:
+  name: "Przełom naukowy"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+rebelia_290:
+  name: "Rebelia"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+rzady_terroru_285:
+  name: "Rządy terroru"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+szczury_270:
+  name: "Szczury"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+wplyw_kultury_294:
+  name: "Wpływ kultury"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+zaraza_271:
+  name: "Zaraza"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+porozumienie_o_otwartych_granicach_333:
+  name: "Porozumienie o otwartych granicach"
+  type: "Military::Pact"
+  min_players: "3"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+porozumienie_o_szlakach_handlowych_334:
+  name: "Porozumienie o szlakach handlowych"
+  type: "Military::Pact"
+  min_players: "3"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+armia_sredniowieczna_354:
+  name: "Armia średniowieczna"
+  type: "Military::Tactics::ArmiaSredniowieczna"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+armia_sredniowieczna_355:
+  name: "Armia średniowieczna"
+  type: "Military::Tactics::ArmiaSredniowieczna"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+armia_sredniowieczna_356:
+  name: "Armia średniowieczna"
+  type: "Military::Tactics::ArmiaSredniowieczna"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+ciezka_kawaleria_352:
+  name: "Ciężka kawaleria"
+  type: "Military::Tactics::CiezkaKawaleria"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+ciezka_kawaleria_353:
+  name: "Ciężka kawaleria"
+  type: "Military::Tactics::CiezkaKawaleria"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+falanga_347:
+  name: "Falanga"
+  type: "Military::Tactics::Falanga"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+falanga_348:
+  name: "Falanga"
+  type: "Military::Tactics::Falanga"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+falanga_349:
+  name: "Falanga"
+  type: "Military::Tactics::Falanga"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+legion_345:
+  name: "Legion"
+  type: "Military::Tactics::Legion"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+legion_346:
+  name: "Legion"
+  type: "Military::Tactics::Legion"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+lekka_kawaleria_350:
+  name: "Lekka kawaleria"
+  type: "Military::Tactics::LekkaKawaleria"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+lekka_kawaleria_351:
+  name: "Lekka kawaleria"
+  type: "Military::Tactics::LekkaKawaleria"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+oddzial_zbrojny_342:
+  name: "Oddział zbrojny"
+  type: "Military::Tactics::OddzialZbrojny"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+oddzial_zbrojny_343:
+  name: "Oddział zbrojny"
+  type: "Military::Tactics::OddzialZbrojny"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+oddzial_zbrojny_344:
+  name: "Oddział zbrojny"
+  type: "Military::Tactics::OddzialZbrojny"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+bogate_terytorium_322:
+  name: "Bogate terytorium"
+  type: "Military::Territory"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+historyczne_terytorium_325:
+  name: "Historyczne terytorium"
+  type: "Military::Territory"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+rozwiniete_terytorium_326:
+  name: "Rozwinięte terytorium"
+  type: "Military::Territory"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+strategiczne_terytorium_324:
+  name: "Strategiczne terytorium"
+  type: "Military::Territory"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+zamieszkane_terytorium_323:
+  name: "Zamieszkane terytorium"
+  type: "Military::Territory"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+zyzne_terytorium_321:
+  name: "Żyzne terytorium"
+  type: "Military::Territory"
+  min_players: "0"
+  description: ""
+  age: "1"
+  variant_id: "2"
+
+dzielo_sztuki_223:
+  name: "Dzieło sztuki"
+  type: "Card::Civil::Action::DzieloSztuki"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+fala_nacjonalizmu_152:
+  name: "Fala nacjonalizmu"
+  type: "Card::Civil::Action::FalaNacjonalizmu"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+geniusz_konstruktorski_147:
+  name: "Geniusz konstruktorski"
+  type: "Card::Civil::Action::GeniuszKonstruktorski"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+idealne_miejsce_na_budowe_135:
+  name: "Idealne miejsce na budowę"
+  type: "Card::Civil::Action::IdealneMiejsceNaBudowe"
+  min_players: "0"
+  description: "Zbuduj nowy budynek publiczny; zapłać o 3 surowce mniej."
+  age: "2"
+  variant_id: "2"
+
+patriotyzm_149:
+  name: "Patriotyzm"
+  type: "Card::Civil::Action::Patriotyzm"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+przelom_technologiczny_227:
+  name: "Przełom technologiczny"
+  type: "Card::Civil::Action::PrzelomTechnologiczny"
+  min_players: "0"
+  description: "Zagraj kartę technologii za pełną cenę; następnie dodaj sobie 4 nauki."
+  age: "2"
+  variant_id: "2"
+
+rewolucyjny_pomysl_224:
+  name: "Rewolucyjny pomysł"
+  type: "Card::Civil::Action::RewolucyjnyPomysl"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+szybka_modernizacja_150:
+  name: "Szybka modernizacja"
+  type: "Card::Civil::Action::SzybkaModernizacja"
+  min_players: "0"
+  description: "Ulepsz farmę, kopalnię lub budynek publiczny; zapłać o 3 surowce mniej."
+  age: "2"
+  variant_id: "2"
+
+szybka_modernizacja_151:
+  name: "Szybka modernizacja"
+  type: "Card::Civil::Action::SzybkaModernizacja"
+  min_players: "0"
+  description: "Ulepsz farmę, kopalnię lub budynek publiczny; zapłać o 3 surowce mniej."
+  age: "2"
+  variant_id: "2"
+
+udane_zbiory_225:
+  name: "Udane zbiory"
+  type: "Card::Civil::Action::UdaneZbiory"
+  min_players: "0"
+  description: "Twoja cywilizacja produkuje 3 żywności."
+  age: "2"
+  variant_id: "2"
+
+urodzajne_ziemie_133:
+  name: "Urodzajne ziemie"
+  type: "Card::Civil::Action::UrodzajneZiemie"
+  min_players: "0"
+  description: "Zbuduj nową kopalnię lub farmę; zapłać o 3 surowce mniej."
+  age: "2"
+  variant_id: "2"
+
+zapasy_zywnosci_226:
+  name: "Zapasy żywności"
+  type: "Card::Civil::Action::ZapasyZywnosci"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+zloza_mineralow_148:
+  name: "Złoża minerałów"
+  type: "Card::Civil::Action::ZlozaMineralow"
+  min_players: "0"
+  description: "Twoja cywilizacja produkuje 3 surowce."
+  age: "2"
+  variant_id: "2"
+
+isaac_newton_42:
+  name: "Isaac Newton"
+  type: "Card::Civil::Leader::IsaacNewton"
+  min_players: "0"
+  description: "Twoje najlepsze laboratorium [lab] lub biblioteka [library] produkują dodatkowo tyle [science] ile wynosi poziom tego budynku. Za każdym razem gdy zagrasz kartę technologii, odzyskujesz 1 wydaną akcję cywilną."
+  age: "2"
+  variant_id: "2"
+
+james_cook_52:
+  name: "James Cook"
+  type: "Card::Civil::Leader::JamesCook"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+jan_amos_komenský_(cz)_45:
+  name: "Jan Amos Komenský (CZ)"
+  type: "Card::Civil::Leader::JanAmosKomensky"
+  min_players: "0"
+  description: "Zagrywanie kart technologii specjalnych (niebieskich) jest tańsze o poziom zagrywanej karty. Twoje biblioteki [library] produkują 1 [science] lub 1 [culture] więcej (Twój wybór)."
+  age: "2"
+  variant_id: "4"
+
+jan_sebastian_bach_232:
+  name: "Jan Sebastian Bach"
+  type: "Card::Civil::Leader::JanSebastianBach"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+maksymilian_robespierre_51:
+  name: "Maksymilian Robespierre"
+  type: "Card::Civil::Leader::MaksymilianRobespierre"
+  min_players: "0"
+  description: "Zyskujesz 1 akcję militarną. Rewolucja kosztuje Cię wszystkie akcje militarne zamiast wszystkich akcji cywilnych."
+  age: "2"
+  variant_id: "2"
+
+napoleon_bonaparte_41:
+  name: "Napoleon Bonaparte"
+  type: "Card::Civil::Leader::NapoleonBonaparte"
+  min_players: "0"
+  description: "Zyskujesz 1 akcję militarną. Bonus wynikający z taktyki Twojej najlepszej armii jest dodawany do siły Twojej cywilizacji powtórnie."
+  age: "2"
+  variant_id: "2"
+
+william_szekspir_40:
+  name: "William Szekspir"
+  type: "Card::Civil::Leader::WilliamSzekspir"
+  min_players: "0"
+  description: "Każda z Twoich bibliotek [library] produkuje dodatkowe 1 [culture]. Każda para biblioteka-teatr [library]-[theatre] produkuje dodatkowe 2 [culture]."
+  age: "2"
+  variant_id: "2"
+
+selektywna_hodowla_113:
+  name: "Selektywna hodowla"
+  type: "Card::Civil::Technology::Farm"
+  min_players: "3"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+selektywna_hodowla_114:
+  name: "Selektywna hodowla"
+  type: "Card::Civil::Technology::Farm"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+monarchia_konstytucyjna_165:
+  name: "Monarchia konstytucyjna"
+  type: "Card::Civil::Technology::Government::MonarchiaKonstytucyjna"
+  min_players: "3"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+monarchia_konstytucyjna_166:
+  name: "Monarchia konstytucyjna"
+  type: "Card::Civil::Technology::Government::MonarchiaKonstytucyjna"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+republika_163:
+  name: "Republika"
+  type: "Card::Civil::Technology::Government::Republika"
+  min_players: "4"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+republika_164:
+  name: "Republika"
+  type: "Card::Civil::Technology::Government::Republika"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+wegiel_111:
+  name: "Węgiel"
+  type: "Card::Civil::Technology::Mine"
+  min_players: "3"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+wegiel_112:
+  name: "Węgiel"
+  type: "Card::Civil::Technology::Mine"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+architektura_179:
+  name: "Architektura"
+  type: "Card::Civil::Technology::Special"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+architektura_180:
+  name: "Architektura"
+  type: "Card::Civil::Technology::Special"
+  min_players: "3"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+nawigacja_121:
+  name: "Nawigacja"
+  type: "Card::Civil::Technology::Special"
+  min_players: "0"
+  description: "Dodaj +2 do swojej siły. W czasie kolonizacji nowego terytorium masz bonus +3."
+  age: "2"
+  variant_id: "2"
+
+strategia_176:
+  name: "Strategia"
+  type: "Card::Civil::Technology::Special"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+wymiar_sprawiedliwosci_177:
+  name: "Wymiar sprawiedliwości"
+  type: "Card::Civil::Technology::Special"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+wymiar_sprawiedliwosci_178:
+  name: "Wymiar sprawiedliwości"
+  type: "Card::Civil::Technology::Special"
+  min_players: "4"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+dziala_92:
+  name: "Działa"
+  type: "Card::Civil::Technology::Unit::Artillery"
+  min_players: "4"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+dziala_93:
+  name: "Działa"
+  type: "Card::Civil::Technology::Unit::Artillery"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+dziala_94:
+  name: "Działa"
+  type: "Card::Civil::Technology::Unit::Artillery"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+kawalerzysci_89:
+  name: "Kawalerzyści"
+  type: "Card::Civil::Technology::Unit::Cavalry"
+  min_players: "4"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+kawalerzysci_90:
+  name: "Kawalerzyści"
+  type: "Card::Civil::Technology::Unit::Cavalry"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+kawalerzysci_91:
+  name: "Kawalerzyści"
+  type: "Card::Civil::Technology::Unit::Cavalry"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+strzelcy_87:
+  name: "Strzelcy"
+  type: "Card::Civil::Technology::Unit::Infrantry"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+strzelcy_88:
+  name: "Strzelcy"
+  type: "Card::Civil::Technology::Unit::Infrantry"
+  min_players: "3"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+sporty_druzynowe_203:
+  name: "Sporty drużynowe"
+  type: "Card::Civil::Technology::Urban::Arena"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+metoda_naukkowa_199:
+  name: "Metoda naukkowa"
+  type: "Card::Civil::Technology::Urban::Laboratory"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+metoda_naukowa_200:
+  name: "Metoda naukowa"
+  type: "Card::Civil::Technology::Urban::Laboratory"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+dziennikarstwo_33:
+  name: "Dziennikarstwo"
+  type: "Card::Civil::Technology::Urban::Library"
+  min_players: "4"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+dziennikarstwo_201:
+  name: "Dziennikarstwo"
+  type: "Card::Civil::Technology::Urban::Library"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+dziennikarstwo_202:
+  name: "Dziennikarstwo"
+  type: "Card::Civil::Technology::Urban::Library"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+zorganizowana_religia_197:
+  name: "Zorganizowana religia"
+  type: "Card::Civil::Technology::Urban::Temple"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+zorganizowana_religia_198:
+  name: "Zorganizowana religia"
+  type: "Card::Civil::Technology::Urban::Temple"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+opera_204:
+  name: "Opera"
+  type: "Card::Civil::Technology::Urban::Theatre"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+opera_205:
+  name: "Opera"
+  type: "Card::Civil::Technology::Urban::Theatre"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+kolej_transkontynentalna_126:
+  name: "Kolej transkontynentalna"
+  type: "Card::Civil::Wonder::KolejTranskontynentalna"
+  min_players: "0"
+  description: "Jedna z Twoich najlepszych kopalni [mine] produkuje dwa razy tyle [resource] (jeden z robotników na niej produkuje dwa niebieskie znaczniki zamiast 1)."
+  age: "2"
+  variant_id: "2"
+
+kreml_129:
+  name: "Kreml"
+  type: "Card::Civil::Wonder::Kreml"
+  min_players: "0"
+  description: "Zyskujesz 1 akcję cywilną i 1 akcję militarną."
+  age: "2"
+  variant_id: "2"
+
+linie_oceaniczne_127:
+  name: "Linie oceaniczne"
+  type: "Card::Civil::Wonder::LinieOceaniczne"
+  min_players: "0"
+  description: "Raz na turę możesz zwiększyć swoją populację bez wydawania akcji cywilnej. Kosztuje Cię to 5 żywności mniej."
+  age: "2"
+  variant_id: "2"
+
+stary_pilzneñski_browar_(cz)_49:
+  name: "Stary Pilzneñski Browar (CZ)"
+  type: "Card::Civil::Wonder::StaryPilznenskiBrowar"
+  min_players: "0"
+  description: "Każda z twoich farm produkuje [culture]: z poziomu A i I - 1 [culture], z poziomu II i III - 2 [culture]."
+  age: "2"
+  variant_id: "4"
+
+wieza_eiffla_128:
+  name: "Wieża Eiffla"
+  type: "Card::Civil::Wonder::WiezaEiffla"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+aneksja_255:
+  name: "Aneksja"
+  type: "Military::Aggression::Aneksja"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+grabiez_249:
+  name: "Grabież"
+  type: "Military::Aggression::Grabiez"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+grabiez_250:
+  name: "Grabież"
+  type: "Military::Aggression::Grabiez"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+najazd_247:
+  name: "Najazd"
+  type: "Military::Aggression::Najazd"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+najazd_248:
+  name: "Najazd"
+  type: "Military::Aggression::Najazd"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+rozbiory_(pl)_26:
+  name: "Rozbiory (PL)"
+  type: "Military::Aggression::Rozbiory"
+  min_players: "0"
+  description: "Zabierz przeciwnikowi tyle żółtych znaczników z banku ile wynosi poziom Twojego ustroju i tyle niebieskich znaczników ile wynosi poziom jego ustroju. Dołóż znaczniki do swoich banków."
+  age: "2"
+  variant_id: "3"
+
+sabotaz_254:
+  name: "Sabotaż"
+  type: "Military::Aggression::Sabotaz"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+skrytobojstwo_253:
+  name: "Skrytobójstwo"
+  type: "Military::Aggression::Skrytobojstwo"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+szpieg_251:
+  name: "Szpieg"
+  type: "Military::Aggression::Szpieg"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+szpieg_252:
+  name: "Szpieg"
+  type: "Military::Aggression::Szpieg"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+_kolonizacja_75:
+  name: "Obrona / Kolonizacja"
+  type: "Military::Bonus"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+_kolonizacja_76:
+  name: "Obrona / Kolonizacja"
+  type: "Military::Bonus"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+_kolonizacja_77:
+  name: "Obrona / Kolonizacja"
+  type: "Military::Bonus"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+_kolonizacja_78:
+  name: "Obrona / Kolonizacja"
+  type: "Military::Bonus"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+_kolonizacja_79:
+  name: "Obrona / Kolonizacja"
+  type: "Military::Bonus"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+_kolonizacja_80:
+  name: "Obrona / Kolonizacja"
+  type: "Military::Bonus"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+deklaracja_niepodleglosci_301:
+  name: "Deklaracja niepodległości"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+duma_narodowa_299:
+  name: "Duma narodowa"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+emigracja_302:
+  name: "Emigracja"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+fala_przestepczosci_300:
+  name: "Fala przestępczości"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+niepokoje_spoleczne_298:
+  name: "Niepokoje społeczne"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+popularyzacja_nauki_307:
+  name: "Popularyzacja nauki"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+porozumienie_miedzynarodowe_305:
+  name: "Porozumienie międzynarodowe"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+rozwoj_ekonomiczny_306:
+  name: "Rozwój ekonomiczny"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+terroryzm_297:
+  name: "Terroryzm"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+uchodzcy_304:
+  name: "Uchodźcy"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+upadek_autorytetow_295:
+  name: "Upadek autorytetów"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+wplyw_czasu_296:
+  name: "Wpływ czasu"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+zimna_wojna_303:
+  name: "Zimna Wojna"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+miedzynarodowe_porozumienie_handlowe_337:
+  name: "Międzynarodowe porozumienie handlowe"
+  type: "Military::Pact"
+  min_players: "3"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+militarna_protekcja_338:
+  name: "Militarna protekcja"
+  type: "Military::Pact"
+  min_players: "3"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+wspolpraca_naukowa_336:
+  name: "Współpraca naukowa"
+  type: "Military::Pact"
+  min_players: "3"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+wymuszony_pokoj_335:
+  name: "Wymuszony pokój"
+  type: "Military::Pact"
+  min_players: "3"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+armia_napoleonska_357:
+  name: "Armia napoleońska"
+  type: "Military::Tactics::ArmiaNapoleonska"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+armia_obronna_358:
+  name: "Armia obronna"
+  type: "Military::Tactics::ArmiaObronna"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+armia_obronna_359:
+  name: "Armia obronna"
+  type: "Military::Tactics::ArmiaObronna"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+fortyfikacje_362:
+  name: "Fortyfikacje"
+  type: "Military::Tactics::Fortyfikacje"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+husaria_(pl)_27:
+  name: "Husaria (PL)"
+  type: "Military::Tactics::Husaria"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "3"
+
+klasyczna_armia_363:
+  name: "Klasyczna armia"
+  type: "Military::Tactics::KlasycznaArmia"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+konkwistatorzy_360:
+  name: "Konkwistatorzy"
+  type: "Military::Tactics::Konkwistatorzy"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+konkwistatorzy_361:
+  name: "Konkwistatorzy"
+  type: "Military::Tactics::Konkwistatorzy"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+artyleria_samobiezna_364:
+  name: "Artyleria samobieżna"
+  type: "Military::Tactics::MobilnaArtyleria"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+bogate_terytorium_328:
+  name: "Bogate terytorium"
+  type: "Military::Territory"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+historyczne_terytorium_331:
+  name: "Historyczne terytorium"
+  type: "Military::Territory"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+rozwiniete_terytorium_332:
+  name: "Rozwinięte terytorium"
+  type: "Military::Territory"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+strategiczne_terytorium_330:
+  name: "Strategiczne terytorium"
+  type: "Military::Territory"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+zamieszkane_terytorium_329:
+  name: "Zamieszkane terytorium"
+  type: "Military::Territory"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+zyzne_terytorium_327:
+  name: "Żyzne terytorium"
+  type: "Military::Territory"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+wojna_o_kulture_276:
+  name: "Wojna o kulturę"
+  type: "Military::War::WojnaOKulture"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+wojna_o_wiedze_275:
+  name: "Wojna o wiedzę"
+  type: "Military::War::WojnaOWiedze"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+wojna_o_zasoby_277:
+  name: "Wojna o zasoby"
+  type: "Military::War::WojnaOZasoby"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+wojna_o_ziemie_274:
+  name: "Wojna o ziemię"
+  type: "Military::War::WojnaOZiemie"
+  min_players: "0"
+  description: ""
+  age: "2"
+  variant_id: "2"
+
+dzielo_sztuki_228:
+  name: "Dzieło sztuki"
+  type: "Card::Civil::Action::DzieloSztuki"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+geniusz_konstruktorski_153:
+  name: "Geniusz konstruktorski"
+  type: "Card::Civil::Action::GeniuszKonstruktorski"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+idealne_miejsce_na_budowe_136:
+  name: "Idealne miejsce na budowę"
+  type: "Card::Civil::Action::IdealneMiejsceNaBudowe"
+  min_players: "0"
+  description: "Zbuduj nowy budynek publiczny; zapłać o 4 surowce mniej."
+  age: "3"
+  variant_id: "2"
+
+mecenat_sztuki_231:
+  name: "Mecenat sztuki"
+  type: "Card::Civil::Action::MecenatSztuki"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+patriotyzm_156:
+  name: "Patriotyzm"
+  type: "Card::Civil::Action::Patriotyzm"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+rewolucyjny_pomysl_229:
+  name: "Rewolucyjny pomysł"
+  type: "Card::Civil::Action::RewolucyjnyPomysl"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+szybka_modernizacja_157:
+  name: "Szybka modernizacja"
+  type: "Card::Civil::Action::SzybkaModernizacja"
+  min_players: "0"
+  description: "Ulepsz farmę, kopalnię lub budynek publiczny; zapłać o 4 surowce mniej."
+  age: "3"
+  variant_id: "2"
+
+szybka_modernizacja_158:
+  name: "Szybka modernizacja"
+  type: "Card::Civil::Action::SzybkaModernizacja"
+  min_players: "0"
+  description: "Ulepsz farmę, kopalnię lub budynek publiczny; zapłać o 4 surowce mniej."
+  age: "3"
+  variant_id: "2"
+
+udane_zbiory_230:
+  name: "Udane zbiory"
+  type: "Card::Civil::Action::UdaneZbiory"
+  min_players: "0"
+  description: "Twoja cywilizacja produkuje 4 żywności."
+  age: "3"
+  variant_id: "2"
+
+urodzajne_ziemie_134:
+  name: "Urodzajne ziemie"
+  type: "Card::Civil::Action::UrodzajneZiemie"
+  min_players: "0"
+  description: "Zbuduj nową kopalnię lub farmę; zapłać o 4 surowce mniej."
+  age: "3"
+  variant_id: "2"
+
+zbrojenia_159:
+  name: "Zbrojenia"
+  type: "Card::Civil::Action::Zbrojenia"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+zloza_mineralow_154:
+  name: "Złoża minerałów"
+  type: "Card::Civil::Action::ZlozaMineralow"
+  min_players: "0"
+  description: "Twoja cywilizacja produkuje 4 surowce."
+  age: "3"
+  variant_id: "2"
+
+zloza_mineralow_155:
+  name: "Złoża minerałów"
+  type: "Card::Civil::Action::ZlozaMineralow"
+  min_players: "0"
+  description: "Twoja cywilizacja produkuje 4 surowce."
+  age: "3"
+  variant_id: "2"
+
+albert_einstein_237:
+  name: "Albert Einstein"
+  type: "Card::Civil::Leader::AlbertEinstein"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+bill_gates_234:
+  name: "Bill Gates"
+  type: "Card::Civil::Leader::BillGates"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+elvis_presley_238:
+  name: "Elvis Presley"
+  type: "Card::Civil::Leader::ElvisPresley"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+jan_pawel_ii_(pl)_29:
+  name: "Jan Paweł II (PL)"
+  type: "Card::Civil::Leader::JanPawelII"
+  min_players: "0"
+  description: "Każda z Twoich świątyń [temple] produkuje tyle [culture] ile wynosi poziom budynku. Twój ustrój produkuje tyle [culture] ile wynosi jego poziom."
+  age: "3"
+  variant_id: "3"
+
+mahatma_gandhi_233:
+  name: "Mahatma Gandhi"
+  type: "Card::Civil::Leader::MahatmaGandhi"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+sid_meier_235:
+  name: "Sid Meier"
+  type: "Card::Civil::Leader::SidMeier"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+tomáš_garrigue_masaryk_(cz)_46:
+  name: "Tomáš Garrigue Masaryk (CZ)"
+  type: "Card::Civil::Leader::TomasGarrigueMasaryk"
+  min_players: "0"
+  description: "Twój ustrój produkuje [culture] w liczbie równej jego poziomowi. Podczas tury możesz dwa razy wykorzystać akcje militarne jako
+cywilne (nawet po rewolucji)."
+  age: "3"
+  variant_id: "4"
+
+winston_churchill_236:
+  name: "Winston Churchill"
+  type: "Card::Civil::Leader::WinstonChurchill"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+zmechanizowane_rolnictwo_117:
+  name: "Zmechanizowane rolnictwo"
+  type: "Card::Civil::Technology::Farm"
+  min_players: "3"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+zmechanizowane_rolnictwo_118:
+  name: "Zmechanizowane rolnictwo"
+  type: "Card::Civil::Technology::Farm"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+demokracja_169:
+  name: "Demokracja"
+  type: "Card::Civil::Technology::Government::Demokracja"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+demokracja_170:
+  name: "Demokracja"
+  type: "Card::Civil::Technology::Government::Demokracja"
+  min_players: "3"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+fundamentalizm_168:
+  name: "Fundamentalizm"
+  type: "Card::Civil::Technology::Government::Fundamentalizm"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+komunizm_167:
+  name: "Komunizm"
+  type: "Card::Civil::Technology::Government::Komunizm"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+ropa_115:
+  name: "Ropa"
+  type: "Card::Civil::Technology::Mine"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+ropa_116:
+  name: "Ropa"
+  type: "Card::Civil::Technology::Mine"
+  min_players: "3"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+inzynieria_184:
+  name: "Inżynieria"
+  type: "Card::Civil::Technology::Special"
+  min_players: "4"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+inzynieria_185:
+  name: "Inżynieria"
+  type: "Card::Civil::Technology::Special"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+satelity_120:
+  name: "Satelity"
+  type: "Card::Civil::Technology::Special"
+  min_players: "0"
+  description: "Dodaj +3 do swojej siły. W czasie kolonizacji nowego terytorium masz bonus +4."
+  age: "3"
+  variant_id: "2"
+
+sluzba_publiczna_183:
+  name: "Służba publiczna"
+  type: "Card::Civil::Technology::Special"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+teoria_wojskowa_181:
+  name: "Teoria wojskowa"
+  type: "Card::Civil::Technology::Special"
+  min_players: "4"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+teoria_wojskowa_182:
+  name: "Teoria wojskowa"
+  type: "Card::Civil::Technology::Special"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+samoloty_bojowe_102:
+  name: "Samoloty bojowe"
+  type: "Card::Civil::Technology::Unit::AirForce"
+  min_players: "4"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+samoloty_bojowe_103:
+  name: "Samoloty bojowe"
+  type: "Card::Civil::Technology::Unit::AirForce"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+samoloty_bojowe_104:
+  name: "Samoloty bojowe"
+  type: "Card::Civil::Technology::Unit::AirForce"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+rakiety_99:
+  name: "Rakiety"
+  type: "Card::Civil::Technology::Unit::Artillery"
+  min_players: "4"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+rakiety_100:
+  name: "Rakiety"
+  type: "Card::Civil::Technology::Unit::Artillery"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+rakiety_101:
+  name: "Rakiety"
+  type: "Card::Civil::Technology::Unit::Artillery"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+czolgi_97:
+  name: "Czołgi"
+  type: "Card::Civil::Technology::Unit::Cavalry"
+  min_players: "3"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+czolgi_98:
+  name: "Czołgi"
+  type: "Card::Civil::Technology::Unit::Cavalry"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+nowoczesna_piechota_95:
+  name: "Nowoczesna piechota"
+  type: "Card::Civil::Technology::Unit::Infrantry"
+  min_players: "3"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+nowoczesna_piechota_96:
+  name: "Nowoczesna piechota"
+  type: "Card::Civil::Technology::Unit::Infrantry"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+sporty_zawodowe_210:
+  name: "Sporty zawodowe"
+  type: "Card::Civil::Technology::Urban::Arena"
+  min_players: "4"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+sporty_zawodowe_211:
+  name: "Sporty zawodowe"
+  type: "Card::Civil::Technology::Urban::Arena"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+komputery_206:
+  name: "Komputery"
+  type: "Card::Civil::Technology::Urban::Laboratory"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+komputery_207:
+  name: "Komputery"
+  type: "Card::Civil::Technology::Urban::Laboratory"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+multimedia_208:
+  name: "Multimedia"
+  type: "Card::Civil::Technology::Urban::Library"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+multimedia_209:
+  name: "Multimedia"
+  type: "Card::Civil::Technology::Urban::Library"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+kinematografia_212:
+  name: "Kinematografia"
+  type: "Card::Civil::Technology::Urban::Theatre"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+kinematografia_213:
+  name: "Kinematografia"
+  type: "Card::Civil::Technology::Urban::Theatre"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+bary_szybkiej_obslugi_130:
+  name: "Bary szybkiej obsługi"
+  type: "Card::Civil::Wonder::BarySzybkiejObslugi"
+  min_players: "0"
+  description: "Natychmiast otrzymujesz 1 [culture] za każdego robotnika będącego jednostką militarną lub w budynku publicznym; 2 [culture] za każdego robotnika na farmie lub w kopalni."
+  age: "3"
+  variant_id: "2"
+
+biblioteka_narodowa_(cz)_50:
+  name: "Biblioteka Narodowa (CZ)"
+  type: "Card::Civil::Wonder::BibliotekaNarodowa"
+  min_players: "0"
+  description: "Natychmiast otrzymujesz 5 [culture] za każdą niewykorzystaną jeszcze akcję cywilną. Na początku epoki IV, jeżeli cud nie jest jeszcze zbudowany, odrzuć go."
+  age: "3"
+  variant_id: "4"
+
+hollywood_239:
+  name: "Hollywood"
+  type: "Card::Civil::Wonder::Hollywood"
+  min_players: "0"
+  description: "Natychmiast otrzymujesz 2 [culture] za każdy poziom każdego z Twoich zbudowanych teatrów [theatre] i bibliotek [library]."
+  age: "3"
+  variant_id: "2"
+
+internet_240:
+  name: "Internet"
+  type: "Card::Civil::Wonder::Internet"
+  min_players: "0"
+  description: "Natychmiast otrzymujesz 2 [culture] za każdy poziom każdego z Twoich zbudowanych laboratoriów [lab] i bibliotek [library]."
+  age: "3"
+  variant_id: "2"
+
+palac_kultury_i_nauki_(pl)_28:
+  name: "Pałac Kultury i Nauki (PL)"
+  type: "Card::Civil::Wonder::PalacKulturyINauki"
+  min_players: "0"
+  description: "Natychmiast otrzymujesz tyle [culture] ile wynosi Twój przyrost kultury i 1/4/9/16 [culture] za wystawione 1/2/3/4 różne karty specjalnych (niebieskich) technologii."
+  age: "3"
+  variant_id: "3"
+
+pierwszy_lot_w_kosmos_131:
+  name: "Pierwszy lot w kosmos"
+  type: "Card::Civil::Wonder::PierwszyLotWKosmos"
+  min_players: "0"
+  description: "Natychmiast otrzymujesz 1 [culture] za każdy poziom każdej wystawionej przez Ciebie karty technologii."
+  age: "3"
+  variant_id: "2"
+
+grabiez_258:
+  name: "Grabież"
+  type: "Military::Aggression::Grabiez"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+grabiez_259:
+  name: "Grabież"
+  type: "Military::Aggression::Grabiez"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+najazd_256:
+  name: "Najazd"
+  type: "Military::Aggression::Najazd"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+najazd_257:
+  name: "Najazd"
+  type: "Military::Aggression::Najazd"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+zbrojna_interwencja_260:
+  name: "Zbrojna interwencja"
+  type: "Military::Aggression::ZbrojnaInterwencja"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+zbrojna_interwencja_261:
+  name: "Zbrojna interwencja"
+  type: "Military::Aggression::ZbrojnaInterwencja"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+zbrojna_interwencja_262:
+  name: "Zbrojna interwencja"
+  type: "Military::Aggression::ZbrojnaInterwencja"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+zbrojna_interwencja_263:
+  name: "Zbrojna interwencja"
+  type: "Military::Aggression::ZbrojnaInterwencja"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+_kolonizacja_63:
+  name: "Obrona / Kolonizacja"
+  type: "Military::Bonus"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+_kolonizacja_64:
+  name: "Obrona / Kolonizacja"
+  type: "Military::Bonus"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+_kolonizacja_65:
+  name: "Obrona / Kolonizacja"
+  type: "Military::Bonus"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+_kolonizacja_66:
+  name: "Obrona / Kolonizacja"
+  type: "Military::Bonus"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+_kolonizacja_67:
+  name: "Obrona / Kolonizacja"
+  type: "Military::Bonus"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+_kolonizacja_68:
+  name: "Obrona / Kolonizacja"
+  type: "Military::Bonus"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+wplyw_architektury_316:
+  name: "Wpływ architektury"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+wplyw_cudow_312:
+  name: "Wpływ cudów"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+wplyw_kolonii_314:
+  name: "Wpływ kolonii"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+wplyw_nauki_319:
+  name: "Wpływ nauki"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+wplyw_populacji_313:
+  name: "Wpływ populacji"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+wplyw_przemyslu_308:
+  name: "Wpływ przemysłu"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+wplyw_rolnictwa_309:
+  name: "Wpływ rolnictwa"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+wplyw_rozwoju_311:
+  name: "Wpływ rozwoju"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+wplyw_rywalizacji_310:
+  name: "Wpływ rywalizacji"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+wplyw_rzadow_315:
+  name: "Wpływ rządów"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+wplyw_sily_317:
+  name: "Wpływ siły"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+wplyw_technologii_320:
+  name: "Wpływ technologii"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+wplyw_zadowolenia_318:
+  name: "Wpływ zadowolenia"
+  type: "Military::Event"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+sojusz_wojskowy_138:
+  name: "Sojusz wojskowy"
+  type: "Military::Pact"
+  min_players: "3"
+  description: "Obie cywilizacje dodają +4 do siły. Pakt kończy się, jeżeli jedna z nich zaatakuje drugą."
+  age: "3"
+  variant_id: "2"
+
+turystyka_zagraniczna_340:
+  name: "Turystyka zagraniczna"
+  type: "Military::Pact"
+  min_players: "3"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+uklad_pokojowy_339:
+  name: "Układ pokojowy"
+  type: "Military::Pact"
+  min_players: "3"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+utrata_niepodleglosci_341:
+  name: "Utrata niepodległości"
+  type: "Military::Pact"
+  min_players: "3"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+armia_zmechanizowana_369:
+  name: "Armia zmechanizowana"
+  type: "Military::Tactics::ArmiaZmechanizowana"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+armia_zmechanizowana_370:
+  name: "Armia zmechanizowana"
+  type: "Military::Tactics::ArmiaZmechanizowana"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+nowoczesna_armia_367:
+  name: "Nowoczesna armia"
+  type: "Military::Tactics::NowoczesnaArmia"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+nowoczesna_armia_368:
+  name: "Nowoczesna armia"
+  type: "Military::Tactics::NowoczesnaArmia"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+oddzialy_szturmowe_371:
+  name: "Oddziały szturmowe"
+  type: "Military::Tactics::OddzialySzturmowe"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+oddzialy_szturmowe_372:
+  name: "Oddziały szturmowe"
+  type: "Military::Tactics::OddzialySzturmowe"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+okopy_365:
+  name: "Okopy"
+  type: "Military::Tactics::Okopy"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+okopy_366:
+  name: "Okopy"
+  type: "Military::Tactics::Okopy"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+swieta_wojna_278:
+  name: "Święta Wojna"
+  type: "Military::War::SwietaWojna"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+swieta_wojna_279:
+  name: "Święta Wojna"
+  type: "Military::War::SwietaWojna"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+wojna_o_kulture_280:
+  name: "Wojna o kulturę"
+  type: "Military::War::WojnaOKulture"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+wojna_o_kulture_281:
+  name: "Wojna o kulturę"
+  type: "Military::War::WojnaOKulture"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+wojna_o_kulture_282:
+  name: "Wojna o kulturę"
+  type: "Military::War::WojnaOKulture"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"
+
+wojna_o_kulture_283:
+  name: "Wojna o kulturę"
+  type: "Military::War::WojnaOKulture"
+  min_players: "0"
+  description: ""
+  age: "3"
+  variant_id: "2"

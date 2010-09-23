@@ -1,0 +1,291 @@
+/* FORM MESSAGES AREA
+
+    <div class="powerForm-errors">
+      <h2>Logowanie nie powiodło się</h2>
+      <ul>
+        <li><a href="#user-password">Nieprawidłowe hasło użytkownika</a></li>
+      </ul>
+    </div>
+*/
+
+.powerForm-errors {
+  padding: 10px 20px 10px 33px;
+  margin: 0 0 1em;
+  border: 1px solid #f08a73;
+  background: #ffe3df url(../images/icons/exclamation.png) no-repeat 10px 12px;
+}
+
+.powerForm-errors h2 {
+  border-bottom: 1px dotted #887800;
+  padding-bottom: 5px;
+  margin: 0 0 5px 0;
+}
+
+.powerForm-errors a {
+  color: #999;
+}
+
+.powerForm-errors a:hover {
+  color: #999;
+  text-decoration: none;
+}
+
+/* FORM BODY
+
+  <form class="powerForm" name="FORM_NAME">
+    <fieldset class="FIELDSET_CLASS">
+      <legend>FIELDSET CAPTION</legend>
+
+      <div class="field ELEMENT_CLASS invalid required" id="field-FORM_NAME_ELEMENT_NAME">
+        <label for="FORM_NAME_ELEMENT_NAME">
+            ELEMENT CAPTION
+            <span>(wymagane)</span>
+        </label>
+        <div class="input">
+          ELEMENT OR GROUP
+        </div>
+        <p class="hint">ELEMENT HINT</p>
+        <p class="error">ERROR MESSAGE</p>
+      </div>
+
+      (...)
+    </fieldset>
+  </form>
+
+  FIELDSET_CLASSES:
+  * formHalfLeft
+  * formHalfRight
+  * twoColumns
+
+  ELEMENT EXAMPLE:
+  <input type="text" ... />
+
+  GROUP EXAMPLE:
+  <input type="check_box" ... />
+  <label for="check_box1">jakas etykieta</label>
+  <input type="check_box" ... />
+  <label for="check_box2">jakas inna etykieta</label>
+
+  ELEMENT_CLASSES:
+  * text_field     -- <input type="text" ... />
+  * password_field -- <input type="password" ... />
+  * check_box      -- <input type="checkbox" ... />
+  * select         -- <select>
+  * select_multi   -- <select multiple="multiple">
+  * check_box_group -- group of check_boxes
+  * radio_group    -- group of radio buttons
+  * submit         -- <button type="submit">
+  * text_area      -- <textarea>...</textarea>
+*/
+
+/* SINGLE FIELD */
+.powerForm-body .field {
+  padding: 10px 5px;
+  margin-top: 5px;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* .powerForm-body .field:hover { background-color: #eee; } */
+.powerForm-body .invalid     { background-color: #ffdfdf; }
+
+/* FIELD PART: LABEL */
+.powerForm-body .field label {
+  float: left;
+  text-align: right;
+  width: 18%;
+  padding-top: 5px;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 6px 1% 6px 1%;
+}
+
+.powerForm-body .field label span {
+  font-size: x-small;
+  color: #999;
+  font-weight: normal;
+  display: block;
+}
+
+/* FIELD PART: INPUT AREA */
+.powerForm-body .field .input {
+  float: left;
+  text-align: left;
+  width: 40%;
+}
+
+.powerForm-body .text_field .input input,
+.powerForm-body .password_field .input input,
+.powerForm-body .select .input select {
+  font-size: 11px;
+  padding: 5px;
+  width: 90%;
+}
+
+/* FIELD PART: HINT AND/OR ERROR */
+.powerForm-body .field .hint,
+.powerForm-body .field .error {
+  float: left;
+  width: 39%;
+  margin: 6px 0 0 0;
+  font-size: x-small;
+}
+
+.powerForm-body .field .error {
+  color: #c00;
+  font-weight: bold;
+}
+
+/* ELEMENT TYPE: check_box - label and input in REVERSED ORDER */
+.powerForm-body .check_box label {
+  width: 40%;
+  text-align: left;
+  padding: 2px 0;
+}
+
+.powerForm-body .check_box .input {
+  width: 18%;
+  text-align: right;
+  padding: 0 1%;
+}
+
+.powerForm-body .check_box .hint,
+.powerForm-body .check_box .error {
+  margin-top: 2px;
+}
+
+/* ELEMENT TYPE: submit - no label,no hover */
+.powerForm-body .submit .input button,
+.powerForm-body .submit .input button
+{
+  padding: 3px 10px;
+  height: 28px;
+}
+
+.powerForm-body .submit:hover {
+  background: none;
+}
+
+/* ELEMENT TYPE: text_area - full width  */
+.powerForm-body .text_area .input {
+  width: 80%;
+}
+.powerForm-body .text_area .input textarea {
+  height: 200px;
+  font-size: 11px;
+  padding: 5px 3px;
+  width: 90%;
+}
+
+.powerForm-body .text_area .hint,
+.powerForm-body .text_area .error {
+  margin-left: 20%;
+}
+
+/* ELEMENT TYPE: radio_group / check_box_group */
+.powerForm-body .check_box_group .input span,
+.powerForm-body .radio_group .input span {
+    float: left;
+    width: 100px;
+    height: 100%;
+    overflow: hidden;
+    margin: 5px 0;
+}
+
+.powerForm-body .check_box_group .input span label,
+.powerForm-body .radio_group .input span label {
+    float: left;
+    text-align: left;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    width: 75px;
+}
+
+.powerForm-body .check_box_group .input span input,
+.powerForm-body .radio_group .input span input {
+    float: left;
+    margin: 0;
+    width: 20px;
+}
+
+/* FIELDSET_CLASS: floating */
+fieldset.floating .field {
+    float: left;
+}
+
+fieldset.floating .field label {
+    text-align: left;
+    width: auto;
+    display: block;
+    float: none;
+}
+
+fieldset.floating .field label span {
+    display: inline;
+    padding: 0 5px;
+}
+
+fieldset.floating .field .input {
+    width: 100%;
+    float: none;
+}
+
+fieldset.floating .field .hint,
+fieldset.floating .field .error {
+  float: none;
+  width: 90%;
+  margin: 6px 0 0 0;
+}
+
+/* FIELDSET_CLASS: halfColumn */
+
+
+/* FIELDSET_CLASS: twoColumns */
+fieldset.twoColumns .field {
+    float: left;
+    width: 45%;
+}
+
+fieldset.twoColumns .field label {
+    text-align: left;
+    width: auto;
+    display: block;
+    float: none;
+}
+
+fieldset.twoColumns .field label span {
+    display: inline;
+    padding: 0 5px;
+}
+
+fieldset.twoColumns .field .input {
+    width: 100%;
+    float: none;
+}
+
+fieldset.twoColumns .field .hint,
+fieldset.twoColumns .field .error {
+  float: none;
+  width: 90%;
+  margin: 6px 0 0 0;
+  clear: both;
+}
+
+fieldset.twoColumns .check_box_group .hint {
+  padding: 6px 2px;
+}
+
+fieldset.twoColumns .check_box label {
+  margin: 7px 0 0 30px;
+}
+
+fieldset.twoColumns .check_box .input {
+  width: auto;
+  float: left;
+  margin: 7px;
+}
+
+fieldset.twoColumns .submit label {
+  display: none;
+}

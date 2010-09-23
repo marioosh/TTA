@@ -1,0 +1,228 @@
+/*
+  <div class="errorExplanation" id="errorExplanation">
+    <h2>ERROR OVERVIEW</h2>
+    <ul>
+      <li>SINGLE ERROR MESSAGE</li>
+    </ul>
+  </div>
+  
+  <form class="mForm">
+    <fieldset class="FIELDSET_CLASS">
+      <label class="mLegend">FIELDSET CAPTION</label>
+      
+      <div class="mField ELEMENT_CLASS mInvalid mRequired">
+        <div class="mInputArea"> 
+
+          ELEMENT OR GROUP
+
+        </div> 
+        <label>ELEMENT CAPTION</label>
+        <p class="mFieldRequired">(wymagane)</p> 
+        <p class="mFieldHint">ELEMENT HINT</p> 
+        <ul class="mFieldError"> 
+          <li>error</li> 
+        </ul> 
+      </div>
+      
+      (...)
+    </fieldset>
+  </form>
+
+  ELEMENT EXAMPLE:
+  <input type="text" ... /> 
+  
+  GROUP EXAMPLE:
+  <input type="checkbox" ... /> 
+  <label for="checkbox1">jakas etykieta</label> 
+  <input type="checkbox" ... /> 
+  <label for="checkbox2">jakas inna etykieta</label>  
+
+  - mTextField
+  - mPasswordField
+  - mCheckbox -- single checkbox
+  - mSelect -- <select> field
+  - mSelectMulti -- <select multiple="multiple">
+  - mCheckboxMulti -- group of checkboxes
+  - mRadioGroup -- group of radio buttons
+  - mButtonSubmit -- <button type="submit"> 
+  - mButton -- <button type="button"> 
+  - mTextArea -- <textarea>
+*/
+.errorExplanation {
+  font-size: 11px; 
+  margin-bottom: 2em;
+  border: 2px solid #ddd;
+  background: #fff no-repeat top left;
+  padding: 10px 20px 10px 50px;
+  border-width: 2px 0;
+  border-style: solid none;
+  color: #c30;
+  background-image: url(../images/alerts/error.png);
+  border-color: #f30;
+}
+
+.errorExplanation h2      { margin: 0; font-size: 15px; color: #c30; }
+.errorExplanation ul      { margin: 0 0 0 15px; }
+.errorExplanation a       { color: #c00; }
+.errorExplanation a:hover { color: #f00; background: none; }
+
+.mForm fieldset {
+  margin-bottom: 15px;
+  padding: 10px;
+  clear: both;
+  border: 0;
+}
+
+.mForm p     { font-size: 11px; margin-top: 0; }
+.mForm label { font-size: 11px; font-weight: bold; }
+
+.mForm input,
+.mForm select {
+  font-size: 11px;
+  padding: 2px 5px;
+}
+
+.mForm .mSelect select {
+  width: 167px;
+}
+
+.mForm .mTextField input,
+.mForm .mPasswordField input {
+  padding: 2px 5px;
+  width: 155px;
+}
+
+/*
+.mForm .mTextField input,
+.mForm .mPasswordField input {
+  border: 1px solid;
+  border-color: #abadb3 #dbdfe6 #e3e9ef #e2e3ea;
+}
+
+.mForm .mTextField input:hover,
+.mForm .mPasswordField input:hover {
+  border-color: #74b2ff #cae2ff #d9ebff #d1e6ff;
+}
+*/
+
+.mForm .mLegend {
+  font-size: 14px;
+  color: #999;
+  margin: 0;
+  display: block;
+  border-bottom: 1px solid #ccc;
+  padding: 3px 0;
+  margin-bottom: 5px;
+}
+
+.mForm .mFieldRequired  { font-size: 11px; color: #999; margin: 0; }
+.mForm .mFieldHint      { font-size: 11px; color: #999; margin: 0; }
+.mForm .mFieldError     { font-size: 11px; color: #c00; margin: 0; }
+
+.mForm .mInvalid              { background-color: #ffdfdf; }
+.mForm .mInvalid .mFieldError { display: block; }
+
+/* fieldset.* */
+.mForm .mField {
+  clear: both;
+  padding: 5px 10px 5px 10px;
+  position: relative;
+  margin-bottom: 10px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.mForm .mField label {
+  float: left;
+  text-align: right;
+  width: 33%;
+  padding-top: 2px;
+}
+
+.mForm .mField .mInputArea {
+  float: right;
+  text-align: left;
+  width: 65%;
+}
+
+.mForm .mField .mFieldRequired {
+  float: left;
+  clear: left;
+  text-align: right;
+  width: 34%;
+}
+
+.mForm .mField .mFieldHint  {
+  margin-top: 2px;
+  float: right;
+  width: 65%;
+}
+
+.mForm .mField .mFieldError {
+  float: right;
+  width: 65%;
+}
+
+.mForm .mRadioGroup .mInputArea input,
+.mForm .mCheckboxMulti .mInputArea input {
+  float: left;
+  text-align: left;
+  clear: both;
+}
+
+.mForm .mRadioGroup .mInputArea label,
+.mForm .mCheckboxMulti .mInputArea label {
+  float: left;
+  text-align: left;
+  padding-top: 1px;
+}
+
+.mForm .mSelect label {
+  margin-top: 4px;
+}
+
+.mForm .mCheckbox label {
+  float: right;
+  width: 93%;
+  text-align: left;
+}
+
+.mForm .mCheckbox .mInputArea {
+  float: left;
+  text-align: right;
+  width: 5%;
+}
+
+/* fieldset.formHalfLeft / fieldset.formHalfRight */
+.mForm .formHalfLeft,
+.mForm .formHalfRight
+  { width: 46%; clear: none; }
+.mForm .formHalfLeft { float: left; }
+.mForm .formHalfRight { float: right; }
+
+/* fieldset.form2Columns */
+.form2Columns .mField { clear: none; width: 46%; float: left; }
+ { width: 90%; }
+
+/* fieldset.form2Columns & fieldset.formHalfLeft / fieldset.formHalfRight */
+.formHalfLeft  .mCheckbox label,
+.formHalfRight .mCheckbox label,
+.form2Columns  .mCheckbox label
+ { width: 90%; }
+
+.formHalfLeft  .mCheckbox .mFieldRequired,
+.formHalfRight .mCheckbox .mFieldRequired,
+.form2Columns  .mCheckbox .mFieldRequired
+ { display: none; }
+
+.formHalfLeft  .mCheckbox .mFieldHint,
+.formHalfRight .mCheckbox .mFieldHint,
+.form2Columns  .mCheckbox .mFieldHint
+ { width: 90%; }
+ 
+.formHalfLeft  .mCheckbox .mFieldError,
+.formHalfRight .mCheckbox .mFieldError,
+.form2Columns  .mCheckbox .mFieldError
+ { width: 90%; }
+
+button { font-weight: bold; }

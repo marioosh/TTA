@@ -1,0 +1,20 @@
+<% add_breadcrumb('Tworzenie nowej rozgrywki') %>
+<%= show_title('Tworzenie nowej rozgrywki') %>
+
+<%= power_errors_for :game, :header_message => 'Odnaleziono następujące błędy!' %>
+<%= power_form_for :game do |f| %>
+  <%= field_set_tag 'Konfiguracja rozgrywki', :class => :twoColumns do %>
+    <%= f.select :max_players, [['2 graczy', 2], ['3 graczy', 3], ['4 graczy', 4]], :label => 'Maksymalna liczba graczy', :required => true %>
+    <%= f.select :max_time, game_max_time_options, :label => 'Czas oczekiwania na ruch', :required => true %>
+    <%= f.select :type, game_type_options, :label => 'Poziom rozgrywki', :required => true %>
+    <%= f.text_field :description, :label => 'Opis (opcjonalnie)', :hint => 'np. "Nauka gry", "Dla doświadczonych".' %>
+    <%= f.collection_check_box_group :variant_ids, Variant.all(:conditions => 'id > 2'), :id, :name, :label => 'Dodatkowe karty', :hint => 'Nie polecamy rozgrywki z oboma dodatkami jednocześnie.' %>
+  <% end %>
+  <%= field_set_tag 'Opcje prywatności', :class => :twoColumns do %>
+    <%= f.text_field :password, :label => 'Hasło dostępu', :hint => 'Jeżeli chcesz, aby w grze brali udział tylko zaproszeni gracze, ustaw hasło dostępu do rozgrywki.', :maxlength => 50 %>
+    <%= f.check_box :ranking, :label => 'Rozgrywka rankingowa', :hint => 'Rozgrywka rankingowa wliczana jest do ogólnej tabeli wyników każdego z graczy. Tylko rozgrywki nierankingowe mogą być przerywane przed końcem partii.' %>
+  <% end %>
+  <%= field_set_tag '', :class => :centerButtons do %>
+  <%= f.submit "Stwórz nową grę" %>
+  <% end %>
+<% end %>

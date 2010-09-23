@@ -1,0 +1,130 @@
+<div id="player-<%= player.id %>" style="height: 100%; overflow: hidden">
+
+  <div class="cards tactics" style="height: 100%; float: left;">
+    <% if gc = player.tactics %>
+      <div class="card" style="padding: 2px; float: left;">
+      <%= render 'layouts/game/game_card', :game_card => gc %>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="cards units" style="height: 100%; float: left;">
+    <% player.player_cards(Card::Civil::Technology::Unit).each do |gc| %>
+      <div class="card" style="padding: 2px; float: left;">
+      <%= render 'layouts/game//game_card', :game_card => gc %>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="cards mines" style="height: 100%; float: left;">
+    <% player.player_cards(Card::Civil::Technology::Mine).each do |gc| %>
+      <div class="card" style="padding: 2px; float: left;">
+      <%= render 'layouts/game//game_card', :game_card => gc %>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="cards farms" style="height: 100%; float: left;">
+    <% player.player_cards(Card::Civil::Technology::Farm).each do |gc| %>
+      <div class="card" style="padding: 2px; float: left;">
+      <%= render 'layouts/game//game_card', :game_card => gc %>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="cards urban" style="height: 100%; float: left;">
+    <% player.player_cards(Card::Civil::Technology::Urban).each do |gc| %>
+      <div class="card" style="padding: 2px; float: left;">
+      <%= render 'layouts/game/game_card', :game_card => gc %>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="cards government" style="height: 100%; float: left;">
+    <% if gc = player.government %>
+      <div class="card" style="padding: 2px; float: left;">
+      <%= render 'layouts/game/game_card', :game_card => gc %>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="cards leader" style="height: 100%; float: left;">
+    <% if gc = player.leader %>
+      <div class="card" style="padding: 2px; float: left;">
+      <%= render 'layouts/game/game_card', :game_card => gc %>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="cards special" style="height: 100%; float: left;">
+    <% player.player_cards(Card::Civil::Technology::Special).each do |gc| %>
+      <div class="card" style="padding: 2px; float: left;">
+      </div>
+      <%= render 'layouts/game/game_card', :game_card => gc %>
+    <% end %>
+  </div>
+
+  <div class="cards territories" style="height: 100%; float: left;">
+    <% player.player_cards(Card::Military::Territory).each do |gc| %>
+      <div class="card" style="padding: 2px; float: left;">
+      <%= render 'layouts/game/game_card', :game_card => gc %>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="cards wonders" style="height: 100%; float: left;">
+    <% player.player_cards(Card::Civil::Wonder).each do |gc| %>
+      <div class="card" style="padding: 2px; float: left;">
+      <%= render 'layouts/game/game_card', :game_card => gc %>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="banks" style="height: 100%; overflow: hidden; clear: both;">
+
+    <div class="bank yellow-bank" style="float: left; margin: 5px; width: 433px; height: 101px; background-image: url(/images/game/yellow_bank.png)">
+      <% #*TODO: happiness level %>
+      <%= happiness_level(player) %>
+      <%= yellow_tokens_bank(player) %>
+    </div>
+
+    <div class="bank free-workers" style="float: left; margin: 20px 5px 5px 5px; width: 64px; height: 70px; background-image: url(/images/game/free_workers.png)">
+      <% player.really_free_workers.times do |i| %>
+      <%= image_tag 'game/icon_yellow.png', :style => "position: absolute; left: #{i*10+3}px; top: 3px; width: 30px;" %>
+      <% end %>
+    </div>
+
+    <div class="bank blue-bank" style="float: left; margin: 20px 5px 5px 5px; width: 358px; height: 70px; background-image: url(/images/game/blue_bank.png)">
+      <%= blue_tokens_bank(player) %>
+    </div>
+
+  </div>
+
+  <div class="cards wonders" style="height: 100%; float: left; width: 110px; overflow: hidden; padding: 5px; margin-right: 10px;">
+    <h3 style="clear: both;">Cud w budowie</h3>
+    <% if gc = player.player_wonder %>
+      <div class="card" style="padding: 2px; float: left;">
+      <%= render 'layouts/game/game_card', :game_card => gc %>
+      </div>
+    <% end %>
+  </div>
+
+  <div id="hand" style="height: 100%; float: left; width: 745px; overflow: hidden; padding: 5px;">
+
+    <h3>Karty w ręku</h3>
+
+    <% player.player_hand(Card::Civil).each do |gc| %>
+      <div class="card" style="padding: 2px; float: left;">
+      <%= render 'layouts/game/game_card', :game_card => gc %>
+      </div>
+    <% end %>
+
+    <% player.player_hand(Card::Military).each do |gc| %>
+      <div class="card" style="padding: 2px; float: left;">
+      <%= render 'layouts/game/game_card', :game_card => gc %>
+      </div>
+    <% end %>
+
+  </div>
+
+</div>

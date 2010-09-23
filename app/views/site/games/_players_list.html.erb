@@ -1,0 +1,26 @@
+<% if !@game.is_player?(current_user) && !@game.is_full? %>
+  <%= form_tag "/site/games/join/#{@game.id}", :method => :post, :class => 'powerForm-body', :style => 'float: right; width: 400px; padding-left: 10px;' do -%>
+    <fieldset class="twoColumns">
+
+      <legend>Dołącz do gry</legend>
+        <% unless @game.password.nil? || @game.password.empty? %>
+        <div class="field password_field required" id="field-player_password">
+          <label for="player_password">Hasło:<span>(wymagane)</span></label>
+          <div class="input" style="width: 170px"><%= password_field('game', 'password', :value => '', :style => 'width: 150px', :maxlength => 50) %></div>
+        </div>
+        <% end %>
+        <div class="field submit required" id="field-player_submit" style="padding-top: 32px;">
+          <div class="input"><button id="player_submit" type="submit">Dołącz do gry!</button></div>
+        </div>
+
+    </fieldset>
+  <% end -%>
+<% end %>
+
+<fieldset id="players-list">
+  <legend>Lista graczy (<%= @game.number_of_players %> / <%= @game.max_players %>)</legend>
+
+  <table id="players-colors">
+    <%= render 'players_colors' %>
+  </table>
+</fieldset>

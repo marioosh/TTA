@@ -1,0 +1,15 @@
+<div id="debug" class="off">
+  <div class="toggle" onclick="$('#debug').toggleClass('off')">debug console</div>
+  <dl>
+    <dt>Params</dt>
+    <dd><%= debug params %></dd>
+    <dt>Controller Class</dt>
+    <dd><%= debug controller.class %></dd>
+    <dt>Cookies :auth_token</dt>
+    <dd><%= debug cookies[:auth_token] %></dd>
+    <dt>Session ID</dt>
+    <dd><%= debug session_id %></dd>
+    <dt>Current user</dt>
+    <dd><%= debug current_user %></dd>
+  </dl>
+</div>

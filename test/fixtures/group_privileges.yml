@@ -1,0 +1,15 @@
+admins_access_admin_module:
+  group: admins
+  privilege: <%= Privilege::ACCESS_ADMIN_MODULE %>
+
+admins_access_my_account:
+  group: admins
+  privilege: <%= Privilege::ACCESS_MY_ACCOUNT %>
+
+users_access_my_account:
+  group: users
+  privilege: <%= Privilege::ACCESS_MY_ACCOUNT %>
+
+users_play_games:
+  group: users
+  privilege: <%= Privilege::PLAY_GAMES %>

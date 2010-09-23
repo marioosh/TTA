@@ -1,0 +1,18 @@
+<fieldset style="margin: 0; height: 320px;">
+  <% if current_user_player %>
+    <legend>Twoje karty</legend>
+
+    <% current_user_player.player_hand(Card::Civil).each do |gc| %>
+     <div class="card" style="padding: 2px; float: left;">
+      <%= render 'layouts/game/game_card', :game_card => gc %>
+      </div>
+    <% end %>
+
+    <% current_user_player.player_hand(Card::Military).each do |gc| %>
+      <div class="card" style="padding: 2px; float: left;">
+      <%= render 'layouts/game/game_card', :game_card => gc %>
+      </div>
+    <% end %>
+  <% end %>
+
+</fieldset>

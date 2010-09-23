@@ -1,0 +1,7 @@
+<% add_game_breadcrumb @game %>
+<% content_for :title, game_title(@game) %>
+
+<%= render :partial => 'configuration' %>
+<%= render :partial => 'players_list' %>
+<%= render :partial => 'join_game' %>
+<%= render :partial => 'game_events' %>

@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta http-equiv="content-script-type" content="text/javascript"/>
+  <title><%= yield :title %> - Through the Ages</title>
+
+  <%= javascript_include_tag :defaults %>
+  <%= stylesheet_link_tag 'reset', 'forms', 'debug', 'screen', 'test/layout' %>
+  <% css_file = File.join(ActionView::Helpers::AssetTagHelper::STYLESHEETS_DIR, controller.controller_path + '.css') %>
+  <% if File.exists?(css_file) %>
+      <%= stylesheet_link_tag controller.controller_path %>
+  <% end %>
+
+  <%= yield :header %>
+</head>
+
+<body class="layout-default" id="controller-<%= controller.class.to_s.sub('::', '-') %>">
+  <div class="container" id="action-<%= controller.action_name %>">
+
+    <%= yield %>
+    
+  </div>
+</body>
+</html>

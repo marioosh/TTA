@@ -1,0 +1,11 @@
+<table>
+<% @game.game_events.each do |event| %>
+
+  <tr>
+    <th><%= event.created_at.to_s(:time) %></th>
+    <th style="background-color: <%= show_color(event.color) %>"><%= event.user.profile.name if event.user %></th>
+    <td><%=h event.description %></td>
+  </tr>
+
+<% end %>
+</table>

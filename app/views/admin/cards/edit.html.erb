@@ -1,0 +1,41 @@
+<h1>#<%= @card.id %></h1>
+<style>
+  #field-card_variant_ids span { display: block; clear: both; width: 400px; }
+  #field-card_variant_ids span label { width: 350px; }
+</style>
+
+<div style="float: right; width: 700px;">
+  <% dir = "public/images/cards/#{card_age(@card)}/" %>
+  <% Dir.glob("#{dir}*-mini.png").each do |file| %>
+    <% if !CardImage.find_by_file(file.sub(dir, '').sub('-mini', ''))  %>
+      <%#= file.sub(dir, '') %>
+      <%= image_tag file.sub('public/images/', ''), :onclick => "$('#card_image').val('#{file.sub('-mini', '')}'); document.getElementById('card_image').form.submit()" %>
+    <% end %>
+  <% end %>
+</div>
+
+<table>
+  <tr>
+    <td>
+      <%= power_errors_for :card, :header_message => 'Wystąpiły błędy!' %>
+      <%= power_form_for :card do |f| %>
+        <%= field_set_tag 'Dane karty', :style => 'position: relative' do %>
+          <%= image_tag(@card.image.mini.url, :style => 'position: absolute; right: 10px; top: 25px;') if @card.image %>
+          <%= f.text_field :name, :label => 'Nazwa', :required => true, :style => 'width: 265px;' %>
+          <%= f.text_field :image, :label => 'Obrazek', :value => '', :required => true, :style => 'width: 265px;' %>
+          <%= f.text_field :type, :label => 'Rodzaj', :required => true %>
+          <%= f.text_field :min_players, :label => 'Min. graczy', :style => 'width: 35px; text-align: right;' %>
+          <%= f.select :age, [['A', 0], ['I', 1], ['II', 2], ['III', 3]], { :label => 'Epoka', :required => true }, :style => 'width: 50px;' %>
+          <%= f.text_area :description, :label => 'Opis działania', :required => false, :hint => 'Dostępne tagi: [culture], [resource], [food], [science].' %>
+          <%= f.collection_select(:variant_id, Variant.all, :id, :name, :label => 'Zestaw kart') %>
+          <%= f.check_box(:next, :label => 'po zapisaniu przejdź do następnej karty') %>
+          <%= f.submit "Zapisz zmiany" %>
+        <% end %>
+      <% end %>
+
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center">(<%= link_to 'wróć do listy kart', "/admin/cards/index" %>)</td>
+  </tr>
+</table>

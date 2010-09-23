@@ -1,0 +1,12 @@
+PolishChars
+==============
+
+Extends String class to provide String#to_ascii method.
+
+Example
+=======
+
+'Krzyś'.to_ascii # => Krzys
+
+
+Copyright (c) 2008 Artur Jedlinski, released under the MIT license

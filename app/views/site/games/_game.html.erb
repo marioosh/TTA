@@ -1,0 +1,10 @@
+<%= content_tag :tr, :id => "game-#{game.id}", :class => game.player && game.player.user == current_user ? 'waiting' : '' do %>
+  <th><%= link_to "ID: #{game.id}", "/site/games/show/#{game.id}"%></th>
+  <td><%= image_tag 'icons/lock.png', :title => t("game.password").capitalize unless game.password.blank? %></td>
+  <td><%= image_tag 'icons/award_star_gold_1.png', :title => t("game.ranking").capitalize if game.ranking %></td>
+  <td><%= game.number_of_players %> / <%= game.max_players %> graczy</td>
+  <td><%= game_type(game) %></td>
+  <td><%= game_status(game) %></td>
+  <td><%= h(game.description) %></td>
+  <td><%= link_to 'Wejdź', game_url(:id => game) %></td>
+<% end %>

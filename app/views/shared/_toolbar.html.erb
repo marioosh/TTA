@@ -1,0 +1,14 @@
+<ul id="toolbar">
+  <% unless current_user %>
+    <li><%= link_to('zaloguj się', :controller => 'site/security', :action => 'login') %></li>
+    <%= content_tag :li, '|', :class => 'glue' %>
+    <li><%= link_to('zarejestruj się', :controller => 'site/security', :action => 'register') %></li>
+  <% else %>
+    <li class="first">Jesteś zalogowany jako:</li>
+    <li><strong><%= current_user.email %></strong></li>
+    <%= content_tag :li, '-', :class => 'glue' %>
+    <li><%= link_to('ustawienia', :controller => 'site/account') %></li>
+    <%= content_tag :li, '|', :class => 'glue' %>
+    <li><%= link_to('wyloguj się', { :controller => 'site/security', :action => 'logout' }, :method => :delete) %></li>
+  <% end %>
+</ul>

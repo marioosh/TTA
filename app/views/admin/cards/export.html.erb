@@ -1,0 +1,6 @@
+<pre>
+<% @cards.each do |card| %>
+<%= card.name.to_ascii.underscore.gsub(' ', '_').gsub(/.*\//, '') + '_' + card.id.to_s %>:
+<% card.attributes.each_pair do |k,v| %><%= "  #{k}: \"#{v}\"\n" if k != 'id' %><% end %>
+<% end %>
+</pre>

@@ -1,0 +1,11 @@
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta http-equiv="content-script-type" content="text/javascript"/>
+
+<%= csrf_meta_tag %>
+<%= javascript_include_tag 'jquery/jquery-1.4.2.min', 'jquery/jquery-ui', 'application', 'rails' %>
+<%= stylesheet_link_tag 'reset', 'forms', 'debug', 'screen', layout_stylesheet, 'ui-lightness/jquery-ui-1.8.1.custom' %>
+<% if File.exists?("public/stylesheets/#{controller.controller_path}.css") %>
+    <%= stylesheet_link_tag controller.controller_path %>
+<% end %>
+
+<%= yield :header %>

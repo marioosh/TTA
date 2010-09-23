@@ -1,0 +1,23 @@
+<fieldset>
+  <legend>Lista graczy (<%= @game.number_of_players %> / <%= @game.max_players %>)</legend>
+  <table id="scoring">
+    <thead>
+      <tr>
+        <td></td>
+        <th><%= image_tag 'game/icon_culture.png', :width => 30 %> <span>(+)</span></th>
+        <th><%= image_tag 'game/icon_science.png', :width => 30 %> <span>(+)</span></th>
+        <th><%= image_tag 'game/icon_strength.png', :width => 30 %></th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @game.players.each do |player| %>
+        <tr class="<%= 'current' if player.user == current_user %>">
+          <th style="background-color: <%= show_color(player.color) %>"><%= link_to player.user.profile.name, "/site/users/show/#{player.user.id}" %></th>
+          <td><%= player.points_culture %> <span>(+<%= player.culture_scoring %>)</span></td>
+          <td><%= player.points_science %> <span>(+<%= player.science_scoring %>)</span></td>
+          <td><%= player.strength %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</fieldset>

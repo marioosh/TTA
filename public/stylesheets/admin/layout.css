@@ -1,0 +1,29 @@
+body { background-color: #fff }
+
+.container { width: 100%; height: 100%; }
+
+/* MAIN LAYOUT ELEMENTS */
+#header, #page, #footer { }
+#header { height: auto; overflow: hidden; border-bottom: 1px solid #666; }
+#page   { height: auto; overflow: hidden; padding-top: 5px; padding-bottom: 15px; }
+#footer { color: #afafaf; font-size: 11px; padding: 15px 15px 15px 120px; }
+
+#content { margin-left: 200px; padding: 20px; }
+#sidebar { float: left; width: 160px; border-right: 1px solid #aaa; padding: 61px 20px 20px 20px; }
+#sidebar h3 { text-align: right; }
+#sidebar ul, #sidebar ol { padding: 0; }
+#sidebar .menu li { text-align: right; }
+#sidebar .menu li a { text-decoration: none; display: block; padding-bottom: 3px; }
+#sidebar .menu li a:hover { border-bottom: 1px solid #666; padding-bottom: 2px; }
+
+#sidebar #toolbar { font-size: 11px; text-align: right; padding: 5px 0; border-top: 1px solid #aaa; }
+#sidebar #toolbar { list-style-type: none; height: auto; overflow: hidden; }
+#sidebar #toolbar li { display: inline; padding: 0 5px; }
+#sidebar #toolbar li.glue { padding: 0; }
+#sidebar #toolbar li.first { display: none; }
+
+#content h1 { color: #ccc; font-size: 25px; margin: 0 0 10px 0; }
+#content h1 span { color: #c00; }
+
+thead th { padding: 5px; font-weight: bold;   border-bottom: 1px solid #666; }
+tbody td { padding: 5px; font-weight: normal; text-align: right; }

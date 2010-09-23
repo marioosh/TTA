@@ -1,0 +1,5 @@
+<% add_breadcrumb('Rejestracja') %>
+<% set_title('Rejestracja') %>
+
+<%= power_errors_for :user, :profile, :header_message => 'Wystąpiły błędy w czasie rejestracji!' %>
+<%= render 'register', :label => 'Zarejestruj nowe konto:' %>

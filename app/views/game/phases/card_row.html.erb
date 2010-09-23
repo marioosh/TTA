@@ -1,0 +1,18 @@
+<h3><%= t("game.phase.civilization.#{@game.phase}") %></h3>
+
+<ol style="font-size: 10px;">
+  <li>Usuń karty z początku toru, dosuń pozostałe karty do lewej strony, dołóż nowe karty.</li>
+  <li>
+    Koniec epoki - Jeżeli została pociągnięta ostatnia karta z epoki I (odpowiednio II lub III) talii kart cywilnych:
+    <ul>
+      <li>Odrzuć z gry liderów, cudy „w budowie”, karty z ręki i pakty z epoki A (odpowiednio I lub II).</li>
+      <% if @game.is_a? Game::Civilization::Full %>
+      <li>Odrzuć po dwa żółte znaczniki z banku każdego gracza do pudełka.</li>
+      <% end %>
+    </ul>
+  </li>
+</ol>
+
+<div style="text-align: right;">
+  <%= button_to 'Rozpocznij turę', "/game/index/index/#{@game.id}?phase=finish" %>
+</div>

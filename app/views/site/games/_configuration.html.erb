@@ -1,0 +1,39 @@
+<h1>Parametry rozgrywki</h1>
+<table class="config">
+  <tr>
+    <th>ID:</th>
+    <td>
+      <%= game_title(@game) %>
+      <%= image_tag 'icons/award_star_gold_1.png', :title => t("game.ranking").capitalize if @game.ranking %>
+    </td>
+  </tr>
+  <tr>
+    <th>Maksymalna liczba graczy:</th>
+    <td><%= @game.max_players %> osoby</td>
+  </tr>
+  <tr>
+    <th>Czas oczekiwania na ruch:</th>
+    <td><%= game_speed(@game) %></td>
+  </tr>
+  <tr>
+    <th>Poziom rozgrywki:</th>
+    <td><%= game_type(@game) %></td>
+  </tr>
+  <tr>
+    <th>Dodatkowe karty:</th>
+    <td><%= @game.variants.map{ |v| v.name }.join ', ' %></td>
+  </tr>
+  <tr>
+    <th>Hasło dostępu:</th>
+    <td><%= (@game.is_player?(current_user) || @game.password.nil? || @game.password.empty?) ? @game.password : '*********' %></td>
+  </tr>
+<% if @game.user == current_user %>
+  <tr>
+    <td colspan="2" style="text-align: right">
+      <%= button_to 'Anuluj grę', { :action => :delete, :id => @game.id }, :method => :put %>
+    </td>
+  </tr>
+<% end %>
+</table>
+
+

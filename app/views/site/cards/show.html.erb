@@ -1,0 +1,8 @@
+<% add_card_breadcrumb @card %>
+<%= show_title card_title(@card) %>
+
+<div class="card">
+  <div class="card-name" style="display: none"><%=h @card.name %> <span>(<%= card_age(@card) %>)</span></div>
+  <div class="card-image"><%= image_tag @card.image.url %></div>
+  <div class="card-description"><%=h @card.description %></div>
+</div>

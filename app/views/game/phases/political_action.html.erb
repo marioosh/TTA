@@ -1,0 +1,19 @@
+<h3><%= t("game.phase.civilization.#{@game.phase}") %></h3>
+
+<ul style="font-size: 10px;">
+
+  <li>Zagranie wydarzenia (zielona karta Wydarzenia lub Terytorium).</li>
+
+  <% if @game.player.military_actions_left > 0 %>
+  <li>Zagranie agresji (brązowa karta Agresji).</li>
+  <li>Wypowiedzenie wojny (czarna karta Wojny).</li>
+  <% end %>
+
+  <li>Propozycja paktu (niebieska karta Paktu).</li>
+  <li>Zerwanie paktu.</li>
+
+</ul>
+
+<div style="text-align: right;">
+  <%= button_to 'Nie wykonuj akcji politycznej', "/game/index/index/#{@game.id}?phase=finish", :confirm => 'Na pewno zakończyć fazę?' %>
+</div>

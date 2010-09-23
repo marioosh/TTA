@@ -1,0 +1,8 @@
+#card_row, #card_row ol { list-style-type: none; margin: 0; padding: 0; height: 100%; overflow: hidden; }
+#card_row li { float: left; }
+#card_row li.cost-1 { background-color: #ccc; padding: 10px; }
+#card_row li.cost-2 { background-color: #bbb; padding: 10px; }
+#card_row li.cost-3 { background-color: #aaa; padding: 10px; }
+#card_row ol li { float: left; clear: none; }
+#card_row ol li img { width: 65px; }
+#scoring td { text-align: right; border: 1px solid #ccc; border-width: 0 1px 1px 0; }

@@ -1,0 +1,22 @@
+<h1><%= @file %></h1>
+
+<table>
+  <tr>
+    <td>
+      <%= image_tag "/files/source/#{@file}" %>
+      <div>(<%= link_to 'wróć do listy kart', "/admin/cards/upload" %>)</div>
+    </td>
+    <td width="400">
+
+      <%= power_errors_for :card, :header_message => 'Wystąpiły błędy!' %>
+      <%= power_form_for :card do |f| %>
+        <%= field_set_tag 'Dane karty', :class => 'form2Columns' do %>
+          <%= f.text_field :name, :label => 'Nazwa', :required => true, :style => 'width: 265px;' %>
+          <%= f.select :age, [['A', 0], ['I', 1], ['II', 2], ['III', 3]], { :label => 'Epoka', :required => true }, :style => 'width: 50px;' %>
+          <%= f.submit "Zapisz zmiany" %>
+        <% end %>
+      <% end %>
+
+    </td>
+  </tr>
+</table>

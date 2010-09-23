@@ -1,0 +1,36 @@
+<h2 style="clear: both">Tor kart</h2>
+<ol id="card-row">
+  <li class="cost-1">
+    <ol>
+    <% i = 0 %>
+    <% @game.card_row[0..4].each do |gc| %>
+      <li class="card position-<%= i %>"><%= render 'layouts/game/game_card', :game_card => gc unless gc.nil? %></li>
+      <% i += 1 %>
+    <% end if @game.card_row[0..4]%>
+    </ol>
+  </li>
+  <li class="cost-2">
+    <ol>
+    <% @game.card_row[5..8].each do |gc| %>
+      <li class="card position-<%= i %>"><%= render 'layouts/game/game_card', :game_card => gc unless gc.nil? %></li>
+      <% i += 1 %>
+    <% end if @game.card_row[5..8] %>
+    </ol>
+  </li>
+  <li class="cost-3">
+    <ol>
+    <% @game.card_row[9..12].each do |gc| %>
+      <li class="card position-<%= i %>"><%= render 'layouts/game/game_card', :game_card => gc unless gc.nil? %></li>
+      <% i += 1 %>
+    <% end if @game.card_row[9..12] %>
+    </ol>
+  </li>
+</ol>
+
+<p>
+  ( karty cywilne: <%= @game.civil_deck.length %> |
+  karty militarne: <%= @game.military_deck.length %> |
+  przyszłe wydarzenia: <%= @game.future_events.length %> |
+  aktualne wydarzenia: <%= @game.current_events.length %> |
+  przeszłe wydarzenia: <%= @game.past_events.length %> )
+</p>

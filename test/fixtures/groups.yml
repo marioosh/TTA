@@ -1,0 +1,7 @@
+admins:
+  name: Administrators
+  users: admin
+
+users:
+  name: Users
+  users: admin, aaron, quentin

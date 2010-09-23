@@ -1,0 +1,13 @@
+<h3><%= gc.card.name %></h3>
+<div style="float: right; margin: 0 0 10px 10px"><%= show_card(gc.card, :midi) %></div>
+
+<%= content_tag :p, gc.card.description if gc.card.description %>
+<ul class="menu">
+  <% gc.menu_options.each do |option| %>
+    <li><%= link_to show_player_action(option[0]), option[1] %></li>
+  <% end %>
+</ul>
+
+<div style="text-align: left;">
+  <%= button_to 'Anuluj', game_url(:id => @game), :onclick => '$("#current-action").show(); $("#current-card").hide(); return false;' %>
+</div>

@@ -1,0 +1,72 @@
+pl:
+  forms:
+    required: wymagane
+  player:
+    color:
+      "0": biały
+      "1": czerwony
+      "2": zielony
+      "3": niebieski
+      "4": żółty
+  game:
+    type:
+      civilization:
+        basic: Gra uproszczona
+        advanced: Gra zaawansowana
+        full: Pełna rozgrywka
+    phase:
+      civilization:
+        "1": Tor kart
+        "2": Wynik wojny
+        "3": Akcja polityczna
+        "4": Odrzucenie nadmiaru kart
+        "5": Akcje cywilne i militarne
+        "6": Produkcja i utrzymanie
+    speed:
+      "10": Ultraszybka gra (10 min.)
+      "60": Szybka rozgrywka (1h)
+      "0": Bez limitu
+    status:
+      "0": Porzucona
+      "1": Oczekuje na graczy
+      "2": W trakcie
+      "3": Zakończona
+    ranking: rozgrywka rankingowa
+    password: gra chroniona hasłem
+  player_action:
+      military:
+        build_unit: Rekrutacja jednostki
+        upgrade_unit: Ulepszenie jednostki
+        destroy_unit: Rozwiązanie jednostki
+        play_tactics: Zagranie taktyki
+        take_card: Wzięcie karty
+        discard_card: Odrzucenie karty
+        sacrifice_unit: Poświęcenie jednostki
+        play_defense: Użycie do obrony
+        play_colonization: Użycie do kolonizacji
+      civil:
+        take_card: Wzięcie karty
+        increase_population: Zwiększenie populacji
+        build:
+          building: Budowa budynku publicznego
+          mine: Budowa nowej kopalni
+          farm: Budowa nowej farmy
+        upgrade:
+          building: Ulepszenie budynku publicznego
+          mine: Ulepszenie kopalni
+          farm: Ulepszenie farmy
+        destroy:
+          building: Zniszczenie budynku publicznego
+          mine: Zniszczenie kopalni
+          farm: Zniszczenie farmy
+        build_wonder: Budowa etapu cudu
+        play_leader: Wprowadzenie lidera
+        play_technology: Wynalezienie technologii
+        start_revolution: Rozpoczęcie rewolucji
+        play_action: Zagranie akcji
+      political:
+        play_event: Zagranie karty jako przyszłe wydarzenie
+        propose_pact: Zaproponowanie paktu
+        play_aggression: Zagranie agresji
+        declare_war: Wywołanie wojny
+        cancel_pact: Zerwanie paktu

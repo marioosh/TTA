@@ -1,0 +1,13 @@
+<%= power_form_for :user, :url => { :action => 'register'}, :html => { :style => 'margin: 0 7px; clear: both;' } do |f| %>
+  <%= field_set_tag label do %>
+    <%= power_fields_for :profile do |pf| %>
+      <%= pf.text_field :first_name, :label => 'Twoje imię / nick', :required => true %>
+    <% end %>
+
+    <%= f.text_field :login, :label => 'E-mail', :required => true, :hint => 'Na ten adres będą wysyłane wszystkie powiadomienia, upewnij się, że jest poprawny.' %>
+    <%= f.password_field :password, :label => 'Hasło', :required => true %>
+    <%= f.password_field :password_confirmation, :label => 'Hasło powtórnie', :required => true %>
+    <%= f.check_box :iagree, :label => 'Tak, zgadzam się' %>
+    <%= f.submit "Zaloguj się" %>
+  <% end %>
+<% end %>

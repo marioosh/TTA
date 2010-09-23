@@ -1,0 +1,27 @@
+en:
+  forms:
+    required: required
+  player:
+    color:
+      "0": white
+      "1": red
+      "2": green
+      "3": blue
+      "4": yellow
+  game:
+    type:
+      civilization:
+        basic: Simple game
+        advanced: Advanced game
+        full: Full game
+    speed:
+      "10": Ultra-fast (10 min.)
+      "60": Fast game (1h)
+      "0": No limit
+    status:
+      "0": Aborted
+      "1": Waiting for players
+      "2": In progress
+      "3": Finished
+    ranking: ranked play
+    password: password protected

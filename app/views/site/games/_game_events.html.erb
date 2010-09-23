@@ -1,0 +1,17 @@
+<%= form_tag "/site/games/chat/#{@game.id}", :method => :put, :class => 'powerForm-body' do -%>
+  <fieldset style="margin: 0;">
+    <legend>Czat z innymi graczami</legend>
+
+    <div style="padding: 5px;">
+      <iframe src="/site/games/events/<%= @game.id %>" style="width: 100%; height: 300px; overflow: scroll"></iframe>
+    </div>
+
+    <% if logged_in? %>
+    <div class="field text_field submit" id="field-chat_message">
+      <div class="input" style="width: 80%; margin-top: 3px;"><%= text_field('chat', 'message', :style => 'width: 95%', :maxlength => 255) %></div>
+      <div class="input" style="width: 20%"><button style="width: 100%" id="chat_submit" type="submit">Wyślij!</button></div>
+    </div>
+    <% end %>
+
+  </fieldset>
+<% end -%>

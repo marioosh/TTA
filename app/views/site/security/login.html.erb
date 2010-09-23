@@ -1,0 +1,19 @@
+<% add_breadcrumb('Logowanie') %>
+
+<%= power_errors_for :user, :header_message => 'Logowanie nie powiodło się!' %>
+<%= power_form_for :user do |f| %>
+
+  <div style="float: right; width: 30%; padding: 5%; margin: 5%; border: 1px solid #999; background-color: #eee;">Tu jakaś fajna fota czy coś...</div>
+
+  <%= field_set_tag 'Zaloguj się...', :class => 'twoColumns', :style => 'float: left; width: 45%; margin-left: 7px;' do %>
+    <%= f.text_field :login, :label => 'E-mail', :required => true %>
+    <%= f.password_field :password, :label => 'Hasło', :required => true %>
+    <%= f.check_box :remember_me, :label => 'zapamiętaj hasło' %>
+    <%= f.submit "Zaloguj się" %>
+
+    <p class="message-notice"><%= link_to 'Kliknij tutaj, jeżeli nie pamiętasz hasła...', :controller => 'security', :action => 'password', 'user[login]' => @user.login %></p>
+
+  <% end %>
+<% end %>
+
+<%= render 'register', :label => '... lub zarejestruj nowe konto:' %>

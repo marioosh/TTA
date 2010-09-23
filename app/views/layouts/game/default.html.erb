@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= yield :title %> - Through the Ages</title>
+  <%= render :partial => 'shared/header' %>
+</head>
+
+<body class="layout-default" id="controller-<%= controller.class.to_s.sub('::', '-') %>">
+  <div class="container" id="action-<%= controller.action_name %>">
+
+    <%= render :partial => 'layouts/site/navbar' %>
+
+    <div id="page">
+
+      <div id="column-main">
+        <div class="box-content">
+          <%= render :partial => 'shared/messages' %>
+
+          <div style="background-color: #eee; height: 100%; overflow: hidden; margin-bottom: 10px;">
+            <div style="float: right; width: 600px; padding-left: 10px; background-color: #fff">
+              <%= render :partial => 'layouts/game/scoring' %>
+              <%= render :partial => 'layouts/game/your_cards' %>
+            </div>
+
+            <div style="background-color: #fff; padding-bottom: 10px; width: 370px;">
+              <%= render :partial => 'layouts/game/configuration' %>
+            </div>
+
+            <div style="padding: 10px; width: 340px;">
+              <%= show_actions(@game.player) if @game.player && @game.player.user == current_user %>
+              <div id="current-card"></div>
+              <div id="current-action">
+                <%= yield %>
+              </div>
+            </div>
+          </div>
+
+          <%= render 'layouts/game/card_row' %>
+
+            <script type="text/javascript">
+              $(function(){
+                // Tabs
+                $('#tabs').tabs({ selected: <%= current_user_player ? current_user_player.position.to_i : 0 %> });
+              });
+            </script>
+
+          <div id="tabs">
+            <ul>
+              <% @game.players.each do |player| %>
+                <li><a href="#player-<%= player.id %>"><%= player.user.profile.name %></a></li>
+              <% end %>
+              <li><a href="#player-0">Podgląd testowy</a></li>
+            </ul>
+
+            <% @game.players.each do |player| %>
+            <%= render 'layouts/game/player', :player => player %>
+            <% end %>
+
+            <%= render :partial => 'layouts/game/test' %>
+
+          </div>
+
+          <%#= render 'site/games/game_events' %>
+
+        </div>
+      </div>
+
+    </div>
+    <%= render :partial => 'layouts/site/footer' %>
+
+  </div>
+  <%= render :partial => 'shared/debug' %>
+</body>
+</html>

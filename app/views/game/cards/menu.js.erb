@@ -1,0 +1,4 @@
+$('#current-card').html('<%= escape_javascript(render('menu', :gc => @gc)) %>');
+$('#breadcrumbs a').focus();
+$('#current-action').hide();
+$('#current-card').show();

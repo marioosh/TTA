@@ -1,0 +1,26 @@
+quentin_game_1:
+  game: game_1_waiting_ranking_no_password
+  user: quentin
+  color: <%= Player::Color::RED %>
+
+quentin_game_2:
+  game: game_2_waiting_ranking_password
+  user: quentin
+  color: <%= Player::Color::RED %>
+
+quentin_game_3:
+  game: game_3_in_progress_not_ranked_no_password
+  user: quentin
+  position: 0
+  color: <%= Player::Color::RED %>
+
+aaron_game_1:
+  game: game_1_waiting_ranking_no_password
+  user: aaron
+  color: <%= Player::Color::GREEN %>
+
+aaron_game_3:
+  game: game_3_in_progress_not_ranked_no_password
+  user: aaron
+  position: 1
+  color: <%= Player::Color::GREEN %>

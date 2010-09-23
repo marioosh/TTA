@@ -1,0 +1,25 @@
+<% @game.players.each do |player| %>
+  <tr>
+    <th style="background-color: <%= show_color(player.color) %>"><%= link_to player.user.profile.name, "/site/users/show/#{player.user.id}" %></th>
+    <td>
+      <% if @game.user == current_user || player.user == current_user %>
+        <%= form_tag "/site/players/color/#{player.id}", :method => :post, :id => "color-#{player.id}", :remote => true do %>
+          <%= select("player", "color", available_colors_options(player), { :selected => player.color }, :onchange => "this.form.onsubmit()", :style => 'width: 150px') %>
+        <% end %>
+      <% end %>
+    </td>
+    <td>
+      <% if (player.user != current_user) && (@game.user == current_user) %>
+        <%= button_to 'Usuń gracza', "/site/players/remove/#{player.id}", :style => 'width: 120px' %>
+      <% elsif (player.user == current_user) && (@game.user != current_user) %>
+        <%= button_to 'Opuść grę', "/site/players/remove/#{current_user_player(@game).id}", :method => :delete, :style => 'width: 120px' %>
+      <% end %>
+    </td>
+  </tr>
+<% end %>
+
+<% if @game.user == current_user %>
+  <tr class="submit">
+    <td colspan="2" style="text-align: right" class="input"><%= button_to "Rozpocznij grę", "/site/games/start/#{@game.id}", :style => 'width: 150px' %></td>
+  </tr>
+<% end %>

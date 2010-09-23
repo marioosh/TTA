@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= yield :title %> - Through the Ages</title>
+  <%= render :partial => 'shared/header' %>
+</head>
+
+<body class="layout-default" id="controller-<%= controller.class.to_s.sub('::', '-') %>">
+  <div class="container" id="action-<%= controller.action_name %>">
+
+    <%= render :partial => 'layouts/site/navbar' %>
+
+    <div id="page">
+
+      <div id="column-main">
+        <div class="box-content">
+          <%= render :partial => 'shared/messages' %>
+          <%= yield %>
+        </div>
+      </div>
+
+      <%= render :partial => 'layouts/site/column_navi' %>
+
+    </div>
+    <%= render :partial => 'layouts/site/footer' %>
+
+  </div>
+  <%= render :partial => 'shared/debug' %>
+</body>
+</html>

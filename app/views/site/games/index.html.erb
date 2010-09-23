@@ -1,0 +1,30 @@
+<div class="logo" style="text-align: center; padding: 20px;"><%= image_tag 'logo/logo-full.png', :width => 700 %></div>
+
+<%= power_form_for :filter do |f| %>
+  <%= field_set_tag 'Aktualne rozgrywki', :class => 'twoColumns games' do %>
+
+    <% games = @filter.games %>
+    <% unless games.empty? %>
+    <%= content_tag(:table, render(:partial => 'game', :collection => games), :style => 'padding: 0 10px 10px 10px;') %>
+    <% else %>
+      <p class="message-notice">Nie ma w tej chwili żadnych oczekujących gier.</p>
+    <% end %>
+
+    <div style="height: 100%; overflow: hidden; border-top: 1px solid #999;">
+      <div style="float: left; width: 40%;">
+        <%= f.check_box :no_password, :label => 'tylko bez hasła' %>
+        <%= f.check_box :waiting, :label => 'tylko z wolnymi miejscami' %>
+      </div>
+      <div style="float: left; width: 40%;">
+        <%= f.check_box :ranking, :label => 'tylko rankingowe' %>
+        <%= f.submit "Filtruj!", :style => 'width: 120px' %>
+      </div>
+    </div>
+  <% end %>
+<% end %>
+
+<%= field_set_tag 'Twoje rozgrywki', :class => 'games' do %>
+  <% games = current_user.games.where( :status => [Game::Status::WAITING_FOR_PLAYERS, Game::Status::IN_PROGRESS] ).order('updated_at DESC')  if current_user %>
+  <%= content_tag(:table, render(:partial => 'game', :collection => games), :style => 'padding: 0 10px 10px 10px;') unless games.nil? || games.empty? %>
+  <%= button_to 'Załóż nową rozgrywkę', "/site/games/create" %>
+<% end %>

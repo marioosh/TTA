@@ -1,0 +1,24 @@
+<% add_breadcrumb '404 Not Found' %>
+<%#= debug_request %>
+
+<%= image_tag 'errors/404.jpg', :style => 'float: right; margin-left: 10px;' %>
+
+<h1 class="error"><%= missing_message @missing, @message %></h1>
+<h3>Wygląda na to, że trafiłeś na stronę, która nie istnieje.</h3>
+<p>Prawdopodobnie wcześniej istniała, ale została usunięta. Co teraz?!</p>
+<ul>
+  <li><%= link_to 'strona główna', root_url %></li>
+  <li><%= link_to 'blog o grach', '/blog' %></li>
+  <li><%= link_to 'kontakt z nami', '/kontakt.html' %></li>
+</ul>
+
+<p>Możesz też kliknąć przycisk <%= link_to 'wstecz', 'javascript:history.back()' %>
+  w przeglądarce a jeżeli korzystasz z Opery - przytrzymaj prawy klawisz myszy
+  i rusz nią energicznie w prawo (tak, Opera to fajna przeglądarka).</p>
+
+<% if cite = random_cite %>
+<blockquote cite="<%= cite.author %>">
+  <q><%= cite.content %></q>
+  <p class="author">= <%= cite.author %></p>
+</blockquote>
+<% end %>

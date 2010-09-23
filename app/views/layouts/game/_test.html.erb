@@ -1,0 +1,98 @@
+<div id="player-0" style="height: 500px;">
+
+  <h2 style="clear: both;">Twoja cywilizacja</h2>
+
+  <div id="free-workers" style="position: absolute; left: 383px; top: 190px; width: 64px; height: 70px; background-image: url(/images/game/free_workers.png)">
+    <%= image_tag 'game/icon_yellow.png', :style => "position: absolute; left: 6px; top: 6px; width: 30px;" %>
+  </div>
+
+  <div id="blue-bank" style="position: absolute; left: 17px; top: 190px; width: 358px; height: 70px; background-image: url(/images/game/blue_bank.png)">
+    <% (0..9).each do |i| %>
+    <%= image_tag 'game/icon_blue.png', :style => "position: absolute; left: #{6+26*i}px; top: 8px; width: 30px;" %>
+    <%= image_tag 'game/icon_blue.png', :style => "position: absolute; left: #{6+26*i}px; top: 38px; width: 30px;" %>
+    <% end %>
+  </div>
+
+  <div id="yellow-bank" style="position: absolute; left: 17px; top: 270px; width: 433px; height: 101px; background-image: url(/images/game/yellow_bank.png)">
+    <% (0..9).each do |i| %>
+    <%= image_tag 'game/icon_yellow.png', :style => "position: absolute; left: #{6+33.5*i}px; top: 26px; width: 30px;" %>
+    <%= image_tag 'game/icon_yellow.png', :style => "position: absolute; left: #{6+33.5*i}px; top: 65px; width: 30px;" %>
+    <% end %>
+  </div>
+
+  <%= image_tag 'cards/A/tyrania-mini.png', :style => 'position: absolute; left: 457px; top: 190px;' %>
+  <div id="actions" style="position: absolute; left: 450px; top: 310px; width: 64px; height: 70px;">
+    <div class="civil">
+      <% (0..3).each do |i| %>
+      <%= image_tag 'game/icon_white.png', :style => "position: absolute; left: #{32-8*i}px; top: 0px; width: 30px;" %>
+      <% end %>
+    </div>
+    <div class="military">
+      <% (0..1).each do |i| %>
+      <%= image_tag 'game/icon_red.png', :style => "position: absolute; left: #{16-8*i}px; top: 25px; width: 30px;" %>
+      <% end %>
+    </div>
+  </div>
+
+  <!-- kawaleria: rycerze -->
+  <%= image_tag 'cards/I/0-3x8-mini.png', :style => 'position: absolute; left: 17px; top: 45px;' %>
+  <%= image_tag 'game/icon_yellow.png', :style => "position: absolute; left: 27px; top: 87px; width: 30px;" %>
+
+  <!-- setup -->
+  <%= image_tag 'cards/A/wojownicy-mini.png', :style => 'position: absolute; left: 117px; top: 45px;' %>
+  <%= image_tag 'game/icon_yellow.png', :style => "position: absolute; left: 143px; top: 87px; width: 30px;" %>
+  <%= image_tag 'game/icon_yellow.png', :style => "position: absolute; left: 135px; top: 87px; width: 30px;" %>
+  <%= image_tag 'game/icon_yellow.png', :style => "position: absolute; left: 127px; top: 87px; width: 30px;" %>
+
+  <%= image_tag 'cards/A/rolnictwo-mini.png', :style => 'position: absolute; left: 217px; top: 45px;' %>
+  <%= image_tag 'game/icon_yellow.png', :style => "position: absolute; left: 235px; top: 147px; width: 30px;" %>
+  <%= image_tag 'game/icon_yellow.png', :style => "position: absolute; left: 227px; top: 147px; width: 30px;" %>
+
+  <%= image_tag 'cards/A/braz-mini.png', :style => 'position: absolute; left: 317px; top: 45px;' %>
+  <%= image_tag 'cards/A/filozofia-mini.png', :style => 'position: absolute; left: 417px; top: 45px;' %>
+
+  <%= image_tag 'cards/A/religia-mini.png', :style => 'position: absolute; left: 517px; top: 45px;' %>
+  <%= image_tag 'game/icon_yellow.png', :style => "position: absolute; left: 527px; top: 147px; width: 30px;" %>
+
+  <!-- farma: irygacja -->
+  <%= image_tag 'cards/I/0-6x2-mini.png', :style => 'position: absolute; left: 217px; top: 5px;' %>
+  <%= image_tag 'game/icon_yellow.png', :style => "position: absolute; left: 235px; top: 67px; width: 30px;" %>
+  <%= image_tag 'game/icon_yellow.png', :style => "position: absolute; left: 227px; top: 67px; width: 30px;" %>
+
+  <!-- kopalnia: wegiel -->
+  <%= image_tag 'cards/II/0-6x6-mini.png', :style => 'position: absolute; left: 317px; top: 25px;' %>
+
+  <!-- swiatynia: teologia -->
+  <%#= image_tag 'cards/I/1-2x2-mini.png', :style => 'position: absolute; left: 517px; top: 25px;' %>
+
+  <!-- swiatynia: zorganizowana religia -->
+  <%= image_tag 'cards/II/1-3x2-mini.png', :style => 'position: absolute; left: 517px; top: 5px;' %>
+  <%= image_tag 'game/icon_yellow.png', :style => "position: absolute; left: 527px; top: 67px; width: 30px;" %>
+
+  <!-- teatr: aktorstwo -->
+  <%= image_tag 'cards/I/1-3x0-mini.png', :style => 'position: absolute; left: 617px; top: 45px;' %>
+
+  <!-- biblioteka: prasa drukarska -->
+  <%= image_tag 'cards/I/1-2x6-mini.png', :style => 'position: absolute; left: 717px; top: 45px;' %>
+
+  <!-- lider: homer -->
+  <%= image_tag 'cards/A/2-3x0-mini.png', :style => 'position: absolute; left: 557px; top: 190px;' %>
+
+  <!-- pakt: porozumienie o otwartych graniach -->
+  <%= image_tag 'cards/I/3-5x9-mini.png', :style => 'position: absolute; left: 657px; top: 190px;' %>
+
+  <!-- taktyka: legion -->
+  <%= image_tag 'cards/I/3-7x3-mini.png', :style => 'position: absolute; left: 17px; top: 380px;' %>
+
+  <!-- kolonie -->
+  <%= image_tag 'cards/I/3-4x7-mini.png', :style => 'position: absolute; left: 117px; top: 380px;' %>
+  <%= image_tag 'cards/I/3-5x0-mini.png', :style => 'position: absolute; left: 217px; top: 380px;' %>
+
+  <!-- cud: bazylika sw piotra -->
+  <%= image_tag 'cards/I/2-5x6-mini.png', :style => 'position: absolute; left: 317px; top: 380px;' %>
+  <%= image_tag 'cards/II/2-6x0-mini.png', :style => 'position: absolute; left: 417px; top: 380px;' %>
+
+  <!-- specjalna: kartografia -->
+  <%= image_tag 'cards/I/1-0x3-mini.png', :style => 'position: absolute; left: 657px; top: 190px;' %>
+
+</div>

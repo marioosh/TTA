@@ -1,0 +1,22 @@
+<% unless flash.empty? %>
+  <div id="flash">
+    <% if flash[:notice] %>
+      <p class="notice"><%= flash[:notice] %></p>
+    <% end %>
+    <% if flash[:success] %>
+      <p class="success"><%= flash[:success] %></p>
+    <% end %>
+    <% if flash[:error] %>
+      <p class="error"><%= flash[:error] %></p>
+    <% end %>
+  </div>
+
+  <% # TODO: make it work ;-) %>
+  <% content_for :header do %>
+  <script type="text/javascript">
+    $(function(){
+      setTimeout("$('#flash').fadeOut(1000)", 2000);
+    });
+  </script>
+  <% end %>
+<% end %>
