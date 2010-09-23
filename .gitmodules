@@ -1,0 +1,3 @@
+[submodule "vendor/plugins/upload_column"]
+	path = vendor/plugins/upload_column
+	url = git://github.com/jnicklas/uploadcolumn.git
