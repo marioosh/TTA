@@ -25,7 +25,7 @@ class Site::SecurityController < Site::DefaultController
         end
       end
     else
-      @user = User.new
+      @user = User.new(:login => 'XX')
       @user.remember_me = "1"
     end
   end

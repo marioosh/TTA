@@ -1,6 +1,8 @@
-<div id="debug" class="off">
+<div id="debug" class="on">
   <div class="toggle" onclick="$('#debug').toggleClass('off')">debug console</div>
   <dl>
+    <dt>Request</dt>
+    <dd><%= debug(request.get? ? 'GET' : 'POST') %></dd>
     <dt>Params</dt>
     <dd><%= debug params %></dd>
     <dt>Controller Class</dt>

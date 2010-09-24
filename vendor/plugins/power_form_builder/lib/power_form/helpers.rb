@@ -28,7 +28,7 @@ module PowerForm::Helpers
   def power_form_for name, *args, &block
     options = args.extract_options!
     options[:html] ||= {}
-    options[:html].merge!(:class => 'powerForm-body')
+    options[:html].merge!(:class => 'powerForm-body', :method => :post)
     options.merge!(:builder => PowerForm::Builder)
     args.push options
 

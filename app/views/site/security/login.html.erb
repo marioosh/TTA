@@ -1,7 +1,7 @@
 <% add_breadcrumb('Logowanie') %>
 
 <%= power_errors_for :user, :header_message => 'Logowanie nie powiodło się!' %>
-<%= power_form_for :user do |f| %>
+<%= power_form_for :user, :url => { :action => 'login'} do |f| %>
 
   <div style="float: right; width: 30%; padding: 5%; margin: 5%; border: 1px solid #999; background-color: #eee;">Tu jakaś fajna fota czy coś...</div>
 
